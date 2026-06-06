@@ -1,0 +1,57 @@
+[
+  {
+    "year": 2026,
+    "booksRead": 1,
+    "highlightCount": 76
+  },
+  {
+    "year": 2025,
+    "booksRead": 10,
+    "highlightCount": 418
+  },
+  {
+    "year": 2024,
+    "booksRead": 8,
+    "highlightCount": 556
+  },
+  {
+    "year": 2023,
+    "booksRead": 5,
+    "highlightCount": 255
+  },
+  {
+    "year": 2022,
+    "booksRead": 8,
+    "highlightCount": 264
+  },
+  {
+    "year": 2021,
+    "booksRead": 7,
+    "highlightCount": 824
+  },
+  {
+    "year": 2020,
+    "booksRead": 17,
+    "highlightCount": 1172
+  },
+  {
+    "year": 2019,
+    "booksRead": 7,
+    "highlightCount": 832
+  },
+  {
+    "year": 2018,
+    "booksRead": 0,
+    "highlightCount": 11
+  },
+  {
+    "year": 2016,
+    "booksRead": 19,
+    "highlightCount": 67
+  },
+  {
+    "year": null,
+    "booksRead": 0,
+    "highlightCount": 60
+  }
+]

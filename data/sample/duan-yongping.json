@@ -1,0 +1,80 @@
+{
+  "book": {
+    "id": "3300193296",
+    "title": "段永平投资问答录：大道至简的财富逻辑",
+    "author": "马小奔",
+    "cover": "https://cdn.weread.qq.com/weread/cover/93/cpplatform_g5zpzjlfghredxj8my24yq/t6_cpplatform_g5zpzjlfghredxj8my24yq1769136295.jpg",
+    "category": "经济理财-理财",
+    "progress": 100,
+    "startedAt": "2026-02-28T16:58:40.000Z",
+    "finishedAt": "2026-03-28T12:36:11.000Z",
+    "lastReadAt": "2026-03-28T12:38:33.000Z",
+    "highlightCount": 47,
+    "noteCount": 5
+  },
+  "highlights": [
+    {
+      "id": "3300193296_44_1407-1430",
+      "bookId": "3300193296",
+      "content": "不要为了赚钱而去做自己不喜欢或者违背良心的事情",
+      "chapterUid": 44,
+      "chapterTitle": "只有快乐才是人生的终极财富，投资只是为了让生活更好",
+      "createdAt": "2026-03-28T12:29:52.000Z",
+      "range": "1407-1430",
+      "colorStyle": 5
+    },
+    {
+      "id": "3300193296_42_715-720",
+      "bookId": "3300193296",
+      "content": "末位淘汰制",
+      "chapterUid": 42,
+      "chapterTitle": "通用电气的衰落：从反面案例中我们能吸取什么教训",
+      "createdAt": "2026-03-28T12:22:37.000Z",
+      "range": "715-720",
+      "colorStyle": 1
+    },
+    {
+      "id": "3300193296_35_598-619",
+      "bookId": "3300193296",
+      "content": "时间是优秀企业的朋友，但却是平庸企业的敌人",
+      "chapterUid": 35,
+      "chapterTitle": "时间是优秀企业的朋友，但却是平庸企业的敌人",
+      "createdAt": "2026-03-28T12:07:46.000Z",
+      "range": "598-619",
+      "colorStyle": 1
+    }
+  ],
+  "notes": [
+    {
+      "id": "4514554_87XD0UHxE",
+      "bookId": "3300193296",
+      "content": "最近也有类似的体会，许多宝贵的财富其实在很早的时候就被给予了，真正的理解却需要时间和某些机会，比如「世上无难事，只怕有心人」。",
+      "quote": "所谓的「财富密码」其实早就写在了我们小学的思想品德课本里",
+      "chapterUid": 46,
+      "chapterTitle": "留给后代的不是财富，而是关于做人做事的本分态度",
+      "createdAt": "2026-03-28T12:38:24.000Z",
+      "range": "1498-1526"
+    },
+    {
+      "id": "4514554_87XC02juo",
+      "bookId": "3300193296",
+      "content": "无语",
+      "quote": "末位淘汰制",
+      "chapterUid": 42,
+      "chapterTitle": "通用电气的衰落：从反面案例中我们能吸取什么教训",
+      "createdAt": "2026-03-28T12:22:55.000Z",
+      "range": "715-720"
+    },
+    {
+      "id": "4514554_87P8YKUXF",
+      "bookId": "3300193296",
+      "content": "我最近的感受是，世上无难事，只怕有心人。以及书是人类进步的阶梯。",
+      "quote": "能够穿越周期的智慧，往往都隐藏在最朴素的道理之中",
+      "chapterUid": 10,
+      "chapterTitle": "能够穿越周期的智慧，往往都隐藏在最朴素的道理之中",
+      "createdAt": "2026-03-23T14:46:26.000Z",
+      "range": "472-496",
+      "isPrivate": true
+    }
+  ]
+}

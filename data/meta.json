@@ -1,0 +1,3176 @@
+{
+  "lastSyncedAt": "2026-06-06T13:35:12.359Z",
+  "source": "weread",
+  "stats": {
+    "shelfBooks": 692,
+    "notebookBooks": 243,
+    "totalHighlights": 4535,
+    "totalNotes": 283,
+    "lastRun": {
+      "fetched": 5,
+      "progressOnly": 199,
+      "skipped": 38
+    }
+  },
+  "fingerprints": {
+    "139418": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1467535534
+      },
+      "progress": {
+        "readingProgress": 20,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "182571": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1465833031
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1466554069
+      }
+    },
+    "215955": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1567440757
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1567440775
+      }
+    },
+    "230107": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1460038839
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1464695879
+      }
+    },
+    "230110": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1460386928
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1468928087
+      }
+    },
+    "462592": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1580189733
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607923198
+      }
+    },
+    "468021": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 1,
+        "sort": 1574685326
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1574685347
+      }
+    },
+    "561806": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1467186620
+      },
+      "progress": {
+        "readingProgress": 7,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "598854": {
+      "content": {
+        "noteCount": 28,
+        "reviewCount": 1,
+        "bookmarkCount": 1,
+        "sort": 1583062528
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1583162745
+      }
+    },
+    "603120": {
+      "content": {
+        "noteCount": 136,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1555751517
+      },
+      "progress": {
+        "readingProgress": 59,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1555752551
+      }
+    },
+    "614354": {
+      "content": {
+        "noteCount": 16,
+        "reviewCount": 4,
+        "bookmarkCount": 0,
+        "sort": 1521498326
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1468928118
+      }
+    },
+    "621792": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1557873003
+      },
+      "progress": {
+        "readingProgress": 34,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1557927170
+      }
+    },
+    "621912": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1468336962
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1548309113
+      }
+    },
+    "654015": {
+      "content": {
+        "noteCount": 93,
+        "reviewCount": 1,
+        "bookmarkCount": 8,
+        "sort": 1558861880
+      },
+      "progress": {
+        "readingProgress": 77,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1558862214
+      }
+    },
+    "656209": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1597288455
+      },
+      "progress": {
+        "readingProgress": 23,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1597289116
+      }
+    },
+    "674032": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1516776545
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1462885128
+      }
+    },
+    "674044": {
+      "content": {
+        "noteCount": 23,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1730622822
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1730734487
+      }
+    },
+    "674073": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1763901054
+      },
+      "progress": {
+        "readingProgress": 12,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1765842868
+      }
+    },
+    "681336": {
+      "content": {
+        "noteCount": 202,
+        "reviewCount": 1,
+        "bookmarkCount": 3,
+        "sort": 1556351000
+      },
+      "progress": {
+        "readingProgress": 87,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1556702712
+      }
+    },
+    "695233": {
+      "content": {
+        "noteCount": 12,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1676595836
+      },
+      "progress": {
+        "readingProgress": 37,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1717503223
+      }
+    },
+    "700466": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1460162268
+      },
+      "progress": {
+        "readingProgress": 6,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "728495": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1521598153
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1468511160
+      }
+    },
+    "728514": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1521506096
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1471346837
+      }
+    },
+    "730731": {
+      "content": {
+        "noteCount": 34,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1565310570
+      },
+      "progress": {
+        "readingProgress": 12,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "731187": {
+      "content": {
+        "noteCount": 40,
+        "reviewCount": 0,
+        "bookmarkCount": 3,
+        "sort": 1577623721
+      },
+      "progress": {
+        "readingProgress": 22,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1561849822
+      }
+    },
+    "731606": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1650850942
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "739613": {
+      "content": {
+        "noteCount": 114,
+        "reviewCount": 23,
+        "bookmarkCount": 10,
+        "sort": 1662002888
+      },
+      "progress": {
+        "readingProgress": 88,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1691601024
+      }
+    },
+    "754063": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1559370227
+      },
+      "progress": {
+        "readingProgress": 22,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "754097": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1470745917
+      },
+      "progress": {
+        "readingProgress": 35,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1470747179
+      }
+    },
+    "754098": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1521539934
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1468928130
+      }
+    },
+    "754099": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1464861649
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1709823673
+      }
+    },
+    "754100": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1464055001
+      },
+      "progress": {
+        "readingProgress": 12,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "757644": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1460974620
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1468928150
+      }
+    },
+    "757645": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1463718865
+      },
+      "progress": {
+        "readingProgress": 40,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1469153421
+      }
+    },
+    "758867": {
+      "content": {
+        "noteCount": 122,
+        "reviewCount": 5,
+        "bookmarkCount": 0,
+        "sort": 1584002087
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1665743198
+      }
+    },
+    "791733": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1470419457
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607922195
+      }
+    },
+    "791734": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1470417528
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607922143
+      }
+    },
+    "791735": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1469969287
+      },
+      "progress": {
+        "readingProgress": 50,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1469954819
+      }
+    },
+    "791736": {
+      "content": {
+        "noteCount": 19,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1568257565
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1665743289
+      }
+    },
+    "791737": {
+      "content": {
+        "noteCount": 12,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1466836308
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1468286704
+      }
+    },
+    "791738": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1523406922
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1469000085
+      }
+    },
+    "806899": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1461406570
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1461428216
+      }
+    },
+    "809763": {
+      "content": {
+        "noteCount": 26,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1566802396
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1718507359
+      }
+    },
+    "812443": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1503772688
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1464695867
+      }
+    },
+    "814439": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1464930787
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "814447": {
+      "content": {
+        "noteCount": 25,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1559481379
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607923367
+      }
+    },
+    "814852": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1465473604
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "815156": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1609741806
+      },
+      "progress": {
+        "readingProgress": 22,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1612766537
+      }
+    },
+    "820116": {
+      "content": {
+        "noteCount": 35,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1590989817
+      },
+      "progress": {
+        "readingProgress": 21,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "823434": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1561392224
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1561392315
+      }
+    },
+    "825681": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1604481304
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1604547768
+      }
+    },
+    "827628": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1582595962
+      },
+      "progress": {
+        "readingProgress": 1,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1582596583
+      }
+    },
+    "831446": {
+      "content": {
+        "noteCount": 156,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1589871534
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1665743370
+      }
+    },
+    "834436": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1739883765
+      },
+      "progress": {
+        "readingProgress": 1,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1739987449
+      }
+    },
+    "836960": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1605013847
+      },
+      "progress": {
+        "readingProgress": 28,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1756654811
+      }
+    },
+    "837618": {
+      "content": {
+        "noteCount": 9,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1555767657
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1738556503
+      }
+    },
+    "838781": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1695123931
+      },
+      "progress": {
+        "readingProgress": 76,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1695715025
+      }
+    },
+    "841402": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1765842904
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1770543409
+      }
+    },
+    "841427": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1572591034
+      },
+      "progress": {
+        "readingProgress": 8,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1573457781
+      }
+    },
+    "842298": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1585843930
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1665743309
+      }
+    },
+    "843465": {
+      "content": {
+        "noteCount": 86,
+        "reviewCount": 0,
+        "bookmarkCount": 3,
+        "sort": 1607741334
+      },
+      "progress": {
+        "readingProgress": 76,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1665743274
+      }
+    },
+    "853022": {
+      "content": {
+        "noteCount": 47,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1571282119
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1571282394
+      }
+    },
+    "856239": {
+      "content": {
+        "noteCount": 115,
+        "reviewCount": 9,
+        "bookmarkCount": 11,
+        "sort": 1618199175
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1618234582
+      }
+    },
+    "857353": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1612252231
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1657766116
+      }
+    },
+    "857797": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1601711157
+      },
+      "progress": {
+        "readingProgress": 21,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1603097561
+      }
+    },
+    "857798": {
+      "content": {
+        "noteCount": 60,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1693238215
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1693386004
+      }
+    },
+    "857863": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1560177648
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607922826
+      }
+    },
+    "907758": {
+      "content": {
+        "noteCount": 18,
+        "reviewCount": 0,
+        "bookmarkCount": 11,
+        "sort": 1627826831
+      },
+      "progress": {
+        "readingProgress": 85,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1654416810
+      }
+    },
+    "907769": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1609668961
+      },
+      "progress": {
+        "readingProgress": 5,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1759722570
+      }
+    },
+    "907771": {
+      "content": {
+        "noteCount": 50,
+        "reviewCount": 1,
+        "bookmarkCount": 2,
+        "sort": 1620180370
+      },
+      "progress": {
+        "readingProgress": 89,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1641723538
+      }
+    },
+    "912325": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1607126196
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607922418
+      }
+    },
+    "912326": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1607237457
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1607239094
+      }
+    },
+    "912824": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1559134713
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607922223
+      }
+    },
+    "912825": {
+      "content": {
+        "noteCount": 65,
+        "reviewCount": 4,
+        "bookmarkCount": 0,
+        "sort": 1584612418
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607921922
+      }
+    },
+    "914293": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1738678311
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1739289490
+      }
+    },
+    "914294": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 1,
+        "bookmarkCount": 1,
+        "sort": 1744535070
+      },
+      "progress": {
+        "readingProgress": 52,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1744562453
+      }
+    },
+    "914295": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1726898549
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1727880942
+      }
+    },
+    "919575": {
+      "content": {
+        "noteCount": 34,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1601719593
+      },
+      "progress": {
+        "readingProgress": 26,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1602126506
+      }
+    },
+    "920713": {
+      "content": {
+        "noteCount": 44,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1586198362
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1580980405
+      }
+    },
+    "921568": {
+      "content": {
+        "noteCount": 47,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1562551507
+      },
+      "progress": {
+        "readingProgress": 62,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1564227474
+      }
+    },
+    "923122": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1647451975
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1648115365
+      }
+    },
+    "923123": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1649385136
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1649389421
+      }
+    },
+    "935492": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1650176488
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1727067343
+      }
+    },
+    "935536": {
+      "content": {
+        "noteCount": 131,
+        "reviewCount": 2,
+        "bookmarkCount": 6,
+        "sort": 1764374640
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1776432953
+      }
+    },
+    "22261199": {
+      "content": {
+        "noteCount": 45,
+        "reviewCount": 0,
+        "bookmarkCount": 4,
+        "sort": 1731736406
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "22370672": {
+      "content": {
+        "noteCount": 10,
+        "reviewCount": 2,
+        "bookmarkCount": 4,
+        "sort": 1562165889
+      },
+      "progress": {
+        "readingProgress": 34,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1562305527
+      }
+    },
+    "22651369": {
+      "content": {
+        "noteCount": 40,
+        "reviewCount": 2,
+        "bookmarkCount": 1,
+        "sort": 1557666719
+      },
+      "progress": {
+        "readingProgress": 82,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1557669149
+      }
+    },
+    "22653219": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1615092097
+      },
+      "progress": {
+        "readingProgress": 56,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1615355631
+      }
+    },
+    "22654631": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1579158449
+      },
+      "progress": {
+        "readingProgress": 11,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1718987413
+      }
+    },
+    "22655631": {
+      "content": {
+        "noteCount": 12,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1572411251
+      },
+      "progress": {
+        "readingProgress": 45,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1761492407
+      }
+    },
+    "22661830": {
+      "content": {
+        "noteCount": 11,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1603796297
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "22671420": {
+      "content": {
+        "noteCount": 24,
+        "reviewCount": 0,
+        "bookmarkCount": 11,
+        "sort": 1604926160
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "22691473": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1706490342
+      },
+      "progress": {
+        "readingProgress": 7,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1731256939
+      }
+    },
+    "22781912": {
+      "content": {
+        "noteCount": 40,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1720940696
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1731257048
+      }
+    },
+    "22806910": {
+      "content": {
+        "noteCount": 53,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1581674506
+      },
+      "progress": {
+        "readingProgress": 18,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1717429808
+      }
+    },
+    "22806945": {
+      "content": {
+        "noteCount": 66,
+        "reviewCount": 8,
+        "bookmarkCount": 10,
+        "sort": 1695185767
+      },
+      "progress": {
+        "readingProgress": 59,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1754841025
+      }
+    },
+    "23071736": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1595746586
+      },
+      "progress": {
+        "readingProgress": 7,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "23229217": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 0,
+        "bookmarkCount": 6,
+        "sort": 1574599311
+      },
+      "progress": {
+        "readingProgress": 8,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1546491115
+      }
+    },
+    "23364876": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1643212100
+      },
+      "progress": {
+        "readingProgress": 97,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1718536296
+      }
+    },
+    "23458702": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1580306319
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607922320
+      }
+    },
+    "23600568": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1604246332
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607921720
+      }
+    },
+    "23600653": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1560699145
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1560700036
+      }
+    },
+    "23601930": {
+      "content": {
+        "noteCount": 16,
+        "reviewCount": 0,
+        "bookmarkCount": 3,
+        "sort": 1751191310
+      },
+      "progress": {
+        "readingProgress": 42,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1751191403
+      }
+    },
+    "23665730": {
+      "content": {
+        "noteCount": 14,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1569500283
+      },
+      "progress": {
+        "readingProgress": 7,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "23723810": {
+      "content": {
+        "noteCount": 11,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1556194980
+      },
+      "progress": {
+        "readingProgress": 84,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1557872321
+      }
+    },
+    "23736455": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1775470669
+      },
+      "progress": {
+        "readingProgress": 26,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1777386133
+      }
+    },
+    "23863205": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1628732359
+      },
+      "progress": {
+        "readingProgress": 43,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1654415896
+      }
+    },
+    "23869148": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1717962909
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1717970860
+      }
+    },
+    "23869152": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1717433369
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1717523786
+      }
+    },
+    "23933599": {
+      "content": {
+        "noteCount": 15,
+        "reviewCount": 5,
+        "bookmarkCount": 1,
+        "sort": 1728448710
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1728460274
+      }
+    },
+    "24229714": {
+      "content": {
+        "noteCount": 34,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1586238921
+      },
+      "progress": {
+        "readingProgress": 9,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1591877090
+      }
+    },
+    "24980740": {
+      "content": {
+        "noteCount": 18,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1608023788
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1608023816
+      }
+    },
+    "25375818": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1600590333
+      },
+      "progress": {
+        "readingProgress": 4,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1601447788
+      }
+    },
+    "25410985": {
+      "content": {
+        "noteCount": 45,
+        "reviewCount": 1,
+        "bookmarkCount": 28,
+        "sort": 1605415605
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1605439751
+      }
+    },
+    "25449830": {
+      "content": {
+        "noteCount": 39,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1575358556
+      },
+      "progress": {
+        "readingProgress": 70,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1575365088
+      }
+    },
+    "25462658": {
+      "content": {
+        "noteCount": 20,
+        "reviewCount": 1,
+        "bookmarkCount": 2,
+        "sort": 1688977599
+      },
+      "progress": {
+        "readingProgress": 88,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1688978507
+      }
+    },
+    "25545876": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1662004135
+      },
+      "progress": {
+        "readingProgress": 11,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1663377934
+      }
+    },
+    "25546236": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1580647074
+      },
+      "progress": {
+        "readingProgress": 14,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1580698748
+      }
+    },
+    "25615385": {
+      "content": {
+        "noteCount": 26,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1624776751
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1696766428
+      }
+    },
+    "25755855": {
+      "content": {
+        "noteCount": 50,
+        "reviewCount": 5,
+        "bookmarkCount": 1,
+        "sort": 1713843583
+      },
+      "progress": {
+        "readingProgress": 67,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1713866606
+      }
+    },
+    "25795121": {
+      "content": {
+        "noteCount": 43,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1715303085
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "26211817": {
+      "content": {
+        "noteCount": 82,
+        "reviewCount": 3,
+        "bookmarkCount": 2,
+        "sort": 1617811088
+      },
+      "progress": {
+        "readingProgress": 26,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1617977168
+      }
+    },
+    "26211825": {
+      "content": {
+        "noteCount": 9,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1627180841
+      },
+      "progress": {
+        "readingProgress": 55,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1627202399
+      }
+    },
+    "26211876": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1659335754
+      },
+      "progress": {
+        "readingProgress": 58,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1662002911
+      }
+    },
+    "26211919": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1642346240
+      },
+      "progress": {
+        "readingProgress": 2,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1642432580
+      }
+    },
+    "26211966": {
+      "content": {
+        "noteCount": 26,
+        "reviewCount": 1,
+        "bookmarkCount": 4,
+        "sort": 1617510867
+      },
+      "progress": {
+        "readingProgress": 27,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1750566696
+      }
+    },
+    "26441414": {
+      "content": {
+        "noteCount": 23,
+        "reviewCount": 6,
+        "bookmarkCount": 1,
+        "sort": 1771031186
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1779797849
+      }
+    },
+    "26542858": {
+      "content": {
+        "noteCount": 35,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1593750132
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1593751657
+      }
+    },
+    "26607359": {
+      "content": {
+        "noteCount": 18,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1737821545
+      },
+      "progress": {
+        "readingProgress": 52,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1740741210
+      }
+    },
+    "26607361": {
+      "content": {
+        "noteCount": 22,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1730124187
+      },
+      "progress": {
+        "readingProgress": 79,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1740937918
+      }
+    },
+    "26793752": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1631764538
+      },
+      "progress": {
+        "readingProgress": 44,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1631890928
+      }
+    },
+    "26846821": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1688970721
+      },
+      "progress": {
+        "readingProgress": 93,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1688976250
+      }
+    },
+    "27185001": {
+      "content": {
+        "noteCount": 10,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1588841193
+      },
+      "progress": {
+        "readingProgress": 29,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "27281402": {
+      "content": {
+        "noteCount": 40,
+        "reviewCount": 5,
+        "bookmarkCount": 68,
+        "sort": 1594831756
+      },
+      "progress": {
+        "readingProgress": 55,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607923216
+      }
+    },
+    "27337406": {
+      "content": {
+        "noteCount": 33,
+        "reviewCount": 0,
+        "bookmarkCount": 7,
+        "sort": 1617068006
+      },
+      "progress": {
+        "readingProgress": 6,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1617161424
+      }
+    },
+    "27337473": {
+      "content": {
+        "noteCount": 26,
+        "reviewCount": 7,
+        "bookmarkCount": 0,
+        "sort": 1744818346
+      },
+      "progress": {
+        "readingProgress": 35,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1745505239
+      }
+    },
+    "27337558": {
+      "content": {
+        "noteCount": 47,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1607919929
+      },
+      "progress": {
+        "readingProgress": 88,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1607921570
+      }
+    },
+    "28078052": {
+      "content": {
+        "noteCount": 14,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1586243249
+      },
+      "progress": {
+        "readingProgress": 9,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1586243312
+      }
+    },
+    "29815031": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1617463665
+      },
+      "progress": {
+        "readingProgress": 21,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1617463672
+      }
+    },
+    "30741159": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1777805896
+      },
+      "progress": {
+        "readingProgress": 3,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1778340250
+      }
+    },
+    "31131759": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1770948550
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "31151864": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1613271061
+      },
+      "progress": {
+        "readingProgress": 34,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "31252030": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1749052359
+      },
+      "progress": {
+        "readingProgress": 52,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1749314062
+      }
+    },
+    "31403502": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1595326187
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1715165554
+      }
+    },
+    "31594821": {
+      "content": {
+        "noteCount": 274,
+        "reviewCount": 11,
+        "bookmarkCount": 40,
+        "sort": 1665640291
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1718987335
+      }
+    },
+    "31808219": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1764304314
+      },
+      "progress": {
+        "readingProgress": 2,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1764372706
+      }
+    },
+    "32345420": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1757781479
+      },
+      "progress": {
+        "readingProgress": 19,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1757860755
+      }
+    },
+    "32435929": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1628263961
+      },
+      "progress": {
+        "readingProgress": 9,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1628416844
+      }
+    },
+    "32670886": {
+      "content": {
+        "noteCount": 16,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1659347958
+      },
+      "progress": {
+        "readingProgress": 16,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1659348378
+      }
+    },
+    "33381009": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1767110962
+      },
+      "progress": {
+        "readingProgress": 26,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1767661571
+      }
+    },
+    "33628204": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1718261859
+      },
+      "progress": {
+        "readingProgress": 83,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1718884391
+      }
+    },
+    "33692222": {
+      "content": {
+        "noteCount": 93,
+        "reviewCount": 10,
+        "bookmarkCount": 9,
+        "sort": 1773926431
+      },
+      "progress": {
+        "readingProgress": 82,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1775042057
+      }
+    },
+    "34246592": {
+      "content": {
+        "noteCount": 43,
+        "reviewCount": 4,
+        "bookmarkCount": 13,
+        "sort": 1617349933
+      },
+      "progress": {
+        "readingProgress": 52,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1617350103
+      }
+    },
+    "34336675": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1718771951
+      },
+      "progress": {
+        "readingProgress": 5,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1719809701
+      }
+    },
+    "34336683": {
+      "content": {
+        "noteCount": 31,
+        "reviewCount": 1,
+        "bookmarkCount": 2,
+        "sort": 1645799125
+      },
+      "progress": {
+        "readingProgress": 30,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1718987245
+      }
+    },
+    "34631845": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 2,
+        "bookmarkCount": 0,
+        "sort": 1726098345
+      },
+      "progress": {
+        "readingProgress": 36,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1779325859
+      }
+    },
+    "34872629": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1612926133
+      },
+      "progress": {
+        "readingProgress": 12,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1613994081
+      }
+    },
+    "35551088": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1615701646
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1718987356
+      }
+    },
+    "35566572": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 4,
+        "sort": 1634204441
+      },
+      "progress": {
+        "readingProgress": 21,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1634818279
+      }
+    },
+    "36697922": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1626797217
+      },
+      "progress": {
+        "readingProgress": 55,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "37072270": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1690415600
+      },
+      "progress": {
+        "readingProgress": 15,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "37423575": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1659315809
+      },
+      "progress": {
+        "readingProgress": 26,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "37683761": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1641229285
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1657205121
+      }
+    },
+    "38112531": {
+      "content": {
+        "noteCount": 16,
+        "reviewCount": 1,
+        "bookmarkCount": 1,
+        "sort": 1625544778
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1625753891
+      }
+    },
+    "39136896": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1626143199
+      },
+      "progress": {
+        "readingProgress": 14,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1626143430
+      }
+    },
+    "40726710": {
+      "content": {
+        "noteCount": 35,
+        "reviewCount": 4,
+        "bookmarkCount": 0,
+        "sort": 1763559513
+      },
+      "progress": {
+        "readingProgress": 77,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1763302993
+      }
+    },
+    "40740496": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1728747521
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1729102445
+      }
+    },
+    "41414686": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1672353264
+      },
+      "progress": {
+        "readingProgress": 98,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1672354835
+      }
+    },
+    "41787117": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1642763273
+      },
+      "progress": {
+        "readingProgress": 20,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "41787784": {
+      "content": {
+        "noteCount": 18,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1717984729
+      },
+      "progress": {
+        "readingProgress": 97,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1719117641
+      }
+    },
+    "41913723": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1747930281
+      },
+      "progress": {
+        "readingProgress": 12,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1747930321
+      }
+    },
+    "43219484": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1655378052
+      },
+      "progress": {
+        "readingProgress": 17,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300004399": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1641008970
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300015843": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1690611239
+      },
+      "progress": {
+        "readingProgress": 13,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300022098": {
+      "content": {
+        "noteCount": 31,
+        "reviewCount": 8,
+        "bookmarkCount": 13,
+        "sort": 1736742684
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1736765765
+      }
+    },
+    "3300023345": {
+      "content": {
+        "noteCount": 94,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1710421156
+      },
+      "progress": {
+        "readingProgress": 45,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1731256911
+      }
+    },
+    "3300024818": {
+      "content": {
+        "noteCount": 144,
+        "reviewCount": 17,
+        "bookmarkCount": 5,
+        "sort": 1766940216
+      },
+      "progress": {
+        "readingProgress": 98,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1778996779
+      }
+    },
+    "3300024943": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1751034969
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1751039303
+      }
+    },
+    "3300028078": {
+      "content": {
+        "noteCount": 26,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1699977707
+      },
+      "progress": {
+        "readingProgress": 14,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1718987263
+      }
+    },
+    "3300039783": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 10,
+        "bookmarkCount": 2,
+        "sort": 1764949659
+      },
+      "progress": {
+        "readingProgress": 11,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1779600625
+      }
+    },
+    "3300041002": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1759911661
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1760010085
+      }
+    },
+    "3300043487": {
+      "content": {
+        "noteCount": 19,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1696843800
+      },
+      "progress": {
+        "readingProgress": 37,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1720372214
+      }
+    },
+    "3300048020": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1771994826
+      },
+      "progress": {
+        "readingProgress": 3,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1772447836
+      }
+    },
+    "3300054813": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1720054614
+      },
+      "progress": {
+        "readingProgress": 45,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1720271520
+      }
+    },
+    "3300058561": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1688128615
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300064880": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 5,
+        "sort": 1728469347
+      },
+      "progress": {
+        "readingProgress": 25,
+        "markedStatus": 3,
+        "shelfReadUpdateTime": 1758778555
+      }
+    },
+    "3300065840": {
+      "content": {
+        "noteCount": 14,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1763211136
+      },
+      "progress": {
+        "readingProgress": 50,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1763219008
+      }
+    },
+    "3300067776": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 6,
+        "bookmarkCount": 0,
+        "sort": 1742053712
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1742551306
+      }
+    },
+    "3300071663": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1768577944
+      },
+      "progress": {
+        "readingProgress": 24,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1768917309
+      }
+    },
+    "3300082609": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1714223783
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1714303480
+      }
+    },
+    "3300096124": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1718686885
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1718719380
+      }
+    },
+    "3300108408": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1726668814
+      },
+      "progress": {
+        "readingProgress": 11,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1726683170
+      }
+    },
+    "3300108679": {
+      "content": {
+        "noteCount": 9,
+        "reviewCount": 1,
+        "bookmarkCount": 2,
+        "sort": 1738830338
+      },
+      "progress": {
+        "readingProgress": 20,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1740187877
+      }
+    },
+    "3300110565": {
+      "content": {
+        "noteCount": 14,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1726367962
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1726371669
+      }
+    },
+    "3300112126": {
+      "content": {
+        "noteCount": 56,
+        "reviewCount": 6,
+        "bookmarkCount": 1,
+        "sort": 1753537778
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1753581597
+      }
+    },
+    "3300117751": {
+      "content": {
+        "noteCount": 25,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1731471504
+      },
+      "progress": {
+        "readingProgress": 20,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1735607001
+      }
+    },
+    "3300118196": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1738682407
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300128993": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1736767179
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1737965880
+      }
+    },
+    "3300131225": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 6,
+        "bookmarkCount": 0,
+        "sort": 1744588240
+      },
+      "progress": {
+        "readingProgress": 6,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1780587933
+      }
+    },
+    "3300143875": {
+      "content": {
+        "noteCount": 0,
+        "reviewCount": 1,
+        "bookmarkCount": 0,
+        "sort": 1767279357
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1767282146
+      }
+    },
+    "3300161719": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1760242713
+      },
+      "progress": {
+        "readingProgress": 36,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1760602782
+      }
+    },
+    "3300176696": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1763905812
+      },
+      "progress": {
+        "readingProgress": 62,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300193093": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1771330879
+      },
+      "progress": {
+        "readingProgress": 89,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1772104809
+      }
+    },
+    "3300193296": {
+      "content": {
+        "noteCount": 47,
+        "reviewCount": 5,
+        "bookmarkCount": 0,
+        "sort": 1774759104
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1774759113
+      }
+    },
+    "3300199881": {
+      "content": {
+        "noteCount": 11,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1776089238
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "3300200730": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1776090104
+      },
+      "progress": {
+        "readingProgress": 85,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_95O0h80j20YG6we6x6EgK03C": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1762701715
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1779600735
+      }
+    },
+    "CB_CrrDvvDvnGEJ6dj6cNBbr4Bq": {
+      "content": {
+        "noteCount": 71,
+        "reviewCount": 1,
+        "bookmarkCount": 13,
+        "sort": 1755444479
+      },
+      "progress": {
+        "readingProgress": 89,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1769040621
+      }
+    },
+    "CB_8xIDgSDfDBRv6r16ooBjfF4M": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 3,
+        "sort": 1727881176
+      },
+      "progress": {
+        "readingProgress": 41,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1727884791
+      }
+    },
+    "CB_4qAFlKFigDQD6pR6ooF3nBiI": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1725599074
+      },
+      "progress": {
+        "readingProgress": 56,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1727676454
+      }
+    },
+    "CB_CKxGGZGFq9RR6qP6oo0SlFkX": {
+      "content": {
+        "noteCount": 38,
+        "reviewCount": 9,
+        "bookmarkCount": 0,
+        "sort": 1725423184
+      },
+      "progress": {
+        "readingProgress": 20,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1726725622
+      }
+    },
+    "CB_4VdEhNEfOFtS6pu6ooBa20WT": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1723477978
+      },
+      "progress": {
+        "readingProgress": 89,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1730940155
+      }
+    },
+    "CB_9YLDY5DWrEM76pX6oo6lR7BW": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1722174714
+      },
+      "progress": {
+        "readingProgress": 76,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1723913298
+      }
+    },
+    "CB_EzT93z95G29k6om6ooB7HFrC": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1717900343
+      },
+      "progress": {
+        "readingProgress": 13,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1717935457
+      }
+    },
+    "CB_ALZCg5Cg02tL6YR6YE": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1717759451
+      },
+      "progress": {
+        "readingProgress": 5,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1717762385
+      }
+    },
+    "CB_1We2SS2Rq7s26ny6oo4qn7zt": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1714626437
+      },
+      "progress": {
+        "readingProgress": 5,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_AsTFbdFaK4av6nB6ooC8j0w9": {
+      "content": {
+        "noteCount": 5,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1711477719
+      },
+      "progress": {
+        "readingProgress": 39,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_08BBJrBH16ni6ja6kf9DwGoG": {
+      "content": {
+        "noteCount": 13,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1696900586
+      },
+      "progress": {
+        "readingProgress": 14,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1696996998
+      }
+    },
+    "CB_62C0Ey0G1C7F6ef6cNBaZB73": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1694419555
+      },
+      "progress": {
+        "readingProgress": 89,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1731255973
+      }
+    },
+    "CB_DOlDKdDKUA6t6iJ6gW1XL0Xp": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1691644491
+      },
+      "progress": {
+        "readingProgress": 11,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1693713140
+      }
+    },
+    "CB_6Im0yS0zcGAA6hq6gWBCnGgV": {
+      "content": {
+        "noteCount": 2,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1689690167
+      },
+      "progress": {
+        "readingProgress": 15,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1690415525
+      }
+    },
+    "CB_GaB2CJ2FP0DX6g36gWDLB9V7": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1684372497
+      },
+      "progress": {
+        "readingProgress": 35,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1685981015
+      }
+    },
+    "CB_7A9Gx7GvE5jO6fC6gWDS33Xr": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 2,
+        "sort": 1682339418
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1682339696
+      }
+    },
+    "CB_EWe9fE9gZBme6ei6cN4VM0B0": {
+      "content": {
+        "noteCount": 12,
+        "reviewCount": 0,
+        "bookmarkCount": 4,
+        "sort": 1678589895
+      },
+      "progress": {
+        "readingProgress": 74,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1749813812
+      }
+    },
+    "CB_GJrFO3FNt3Yf6cb6cN": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1668411112
+      },
+      "progress": {
+        "readingProgress": 8,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1716128922
+      }
+    },
+    "CB_0Wz0CL0BsBqn6ab6YE": {
+      "content": {
+        "noteCount": 6,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1661134800
+      },
+      "progress": {
+        "readingProgress": 99,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1661338512
+      }
+    },
+    "CB_5N4CZ0CXmGEJ6Zb6YE": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1656292860
+      },
+      "progress": {
+        "readingProgress": 28,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1656425273
+      }
+    },
+    "CB_AY0E4qE41Fxb6ZP6YE": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1655430010
+      },
+      "progress": {
+        "readingProgress": 14,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1717759208
+      }
+    },
+    "CB_EGK5fg5hv1gj6Y96YE": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1651555939
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 1717430486
+      }
+    },
+    "CB_5hn5J15Iz7Gj6XJ6YE": {
+      "content": {
+        "noteCount": 16,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1646878708
+      },
+      "progress": {
+        "readingProgress": 44,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1646879568
+      }
+    },
+    "CB_0rWERqEOo35e6Q66Pw": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1627492956
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_0vfERrEOo35e6Q66Pw": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1626055624
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_0CGERsEOo35e6Q66Pw": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1617677001
+      },
+      "progress": {
+        "readingProgress": 71,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1619423357
+      }
+    },
+    "CB_A16AU0AUJ6066Kk6Ln": {
+      "content": {
+        "noteCount": 64,
+        "reviewCount": 2,
+        "bookmarkCount": 13,
+        "sort": 1617161423
+      },
+      "progress": {
+        "readingProgress": 48,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_DfL8P98QmBuw6OE6Ln": {
+      "content": {
+        "noteCount": 12,
+        "reviewCount": 0,
+        "bookmarkCount": 3,
+        "sort": 1610099480
+      },
+      "progress": {
+        "readingProgress": 17,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_5J78Iv8IY92Z6NP6Ln": {
+      "content": {
+        "noteCount": 21,
+        "reviewCount": 3,
+        "bookmarkCount": 1,
+        "sort": 1608901478
+      },
+      "progress": {
+        "readingProgress": 41,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1686568609
+      }
+    },
+    "CB_Fr2AOSAQA9i96Nh6Ln": {
+      "content": {
+        "noteCount": 8,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1607888491
+      },
+      "progress": {
+        "readingProgress": 100,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_E3t0LJ0ONFYr6N36Ln": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1605326644
+      },
+      "progress": {
+        "readingProgress": 10,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_CP2B8aB8fEHy6Mc6Ln": {
+      "content": {
+        "noteCount": 10,
+        "reviewCount": 0,
+        "bookmarkCount": 1,
+        "sort": 1605232038
+      },
+      "progress": {
+        "readingProgress": 8,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1619620920
+      }
+    },
+    "CB_8UX95h95G7Gj6Kv6Ln": {
+      "content": {
+        "noteCount": 7,
+        "reviewCount": 3,
+        "bookmarkCount": 0,
+        "sort": 1597408489
+      },
+      "progress": {
+        "readingProgress": 0,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1597414025
+      }
+    },
+    "CB_2Fn2SB2Rq7nt6L36Ln": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1597323399
+      },
+      "progress": {
+        "readingProgress": 60,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 1753608923
+      }
+    },
+    "CB_5N422c23w7nt6L36Ln": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1597322696
+      },
+      "progress": {
+        "readingProgress": 3,
+        "markedStatus": 1,
+        "shelfReadUpdateTime": 0
+      }
+    },
+    "CB_A5FAU1AUJ6066Kk6Ln": {
+      "content": {
+        "noteCount": 4,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1596019860
+      },
+      "progress": {
+        "readingProgress": 82,
+        "markedStatus": 4,
+        "shelfReadUpdateTime": 0
+      }
+    }
+  }
+}
