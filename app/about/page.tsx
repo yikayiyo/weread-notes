@@ -19,7 +19,7 @@ export default function AboutPage() {
             回首向来萧瑟处，归去，也无风雨也无晴。
           </blockquote>
           <figcaption className="about-poem-caption">
-            苏轼 ·《定风波》
+            —— 苏轼 ·《定风波》
           </figcaption>
         </figure>
       </ScrollReveal>

@@ -35,7 +35,7 @@ export default function HomePage() {
       {reading.length > 0 && (
         <PageSection>
           <SectionHeading
-            title="当前阅读"
+            title="最近在看"
             href="/archive"
             linkLabel="全部藏书 →"
             accent="sage"
