@@ -41,9 +41,9 @@ export function ShareCardPreview({
   }, [itemEncoded, theme]);
 
   return (
-    <div className="share-card-preview mx-auto flex w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
+    <div className="share-card-preview mx-auto flex h-[360px] w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
       {loading && (
-        <div className="flex min-h-[280px] w-full items-center justify-center bg-[#f7f4ee] text-sm text-secondary">
+        <div className="flex h-full w-full items-center justify-center bg-[#f7f4ee] text-sm text-secondary">
           生成中…
         </div>
       )}
@@ -52,11 +52,11 @@ export function ShareCardPreview({
         <img
           src={previewUrl}
           alt="分享卡片预览"
-          className="mx-auto block h-auto w-full"
+          className="h-full w-full object-contain"
         />
       )}
       {error && !loading && (
-        <div className="flex min-h-[280px] w-full items-center justify-center px-4 text-center text-sm text-ochre">
+        <div className="flex h-full w-full items-center justify-center px-4 text-center text-sm text-ochre">
           {error}
         </div>
       )}

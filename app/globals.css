@@ -103,29 +103,25 @@ html.dark {
 }
 
 html {
-  scrollbar-gutter: stable;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
 html.scroll-locked {
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 html.scroll-locked body {
-  overflow: hidden;
   touch-action: none;
-  padding-right: var(--scrollbar-compensation, 0px);
 }
 
 html.scroll-locked .share-card-fab {
-  right: calc(
-    max(1.25rem, env(safe-area-inset-right, 0px)) +
-      var(--scrollbar-compensation, 0px)
-  );
+  right: max(1.25rem, env(safe-area-inset-right, 0px));
 }
 
 body {
+  overflow-y: scroll;
   background: var(--paper);
   color: var(--text-primary);
   font-family: var(--font-body);
@@ -1060,6 +1056,10 @@ html.dark .sync-command code {
   overscroll-behavior: contain;
   touch-action: none;
   background: color-mix(in srgb, var(--text-primary) 28%, transparent);
+}
+
+.share-card-overlay:not([data-open]) {
+  display: none;
 }
 
 .share-card-action {

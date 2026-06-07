@@ -43,13 +43,12 @@ export function ShareCardModal() {
     }
   };
 
-  if (!open) return null;
-
   const empty = pool.length === 0;
 
   return (
     <div
       className="share-card-overlay fixed inset-0 z-50 flex items-center justify-center p-[var(--page-gutter)]"
+      data-open={open ? "" : undefined}
       onClick={(event) => {
         if (event.target === event.currentTarget) close();
       }}
@@ -58,7 +57,7 @@ export function ShareCardModal() {
         role="dialog"
         aria-modal="true"
         aria-labelledby="share-card-title"
-        className="share-card-dialog flex w-full max-w-md flex-col gap-5 rounded-[2px] border border-border bg-paper p-5 shadow-[var(--card-shadow)] sm:max-w-lg sm:p-6"
+        className="share-card-dialog flex w-full max-w-md max-h-[90vh] flex-col gap-5 overflow-y-auto rounded-[2px] border border-border bg-paper p-5 shadow-[var(--card-shadow)] sm:max-w-lg sm:p-6"
         onClick={(event) => event.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-4">
