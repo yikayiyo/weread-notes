@@ -1,3 +1,4 @@
+import { stripExcerptArtifacts } from "@/lib/excerpt-filter";
 import { replaceWechatEmoticons } from "@/lib/wechat-emoji";
 
 export function FormattedText({
@@ -8,6 +9,8 @@ export function FormattedText({
   className?: string;
 }) {
   return (
-    <span className={className}>{replaceWechatEmoticons(children)}</span>
+    <span className={className}>
+      {replaceWechatEmoticons(stripExcerptArtifacts(children))}
+    </span>
   );
 }

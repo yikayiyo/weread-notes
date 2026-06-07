@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteNav } from "./SiteNav";
+import { ShareCardButton } from "./ShareCardButton";
 import { ThemeToggle } from "./ThemeToggle";
 
 export function SiteHeader() {
@@ -13,6 +14,7 @@ export function SiteHeader() {
         </Link>
         <div className="flex items-center gap-4 sm:gap-5">
           <SiteNav />
+          <ShareCardButton />
           <ThemeToggle />
         </div>
       </div>

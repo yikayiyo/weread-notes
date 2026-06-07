@@ -1,0 +1,65 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import type { ShareTheme } from "@/lib/share-pool";
+import { buildShareCardUrl } from "@/lib/share-download";
+
+export function ShareCardPreview({
+  itemEncoded,
+  theme,
+}: {
+  itemEncoded: string;
+  theme: ShareTheme;
+}) {
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const loading = !previewUrl && !error;
+
+  useEffect(() => {
+    let active = true;
+    let objectUrl: string | null = null;
+
+    fetch(buildShareCardUrl(itemEncoded, theme, "svg"))
+      .then(async (response) => {
+        if (!response.ok) throw new Error("preview failed");
+        return response.blob();
+      })
+      .then((blob) => {
+        if (!active) return;
+        objectUrl = URL.createObjectURL(blob);
+        setPreviewUrl(objectUrl);
+      })
+      .catch(() => {
+        if (!active) return;
+        setError("卡片预览加载失败，请稍后重试");
+      });
+
+    return () => {
+      active = false;
+      if (objectUrl) URL.revokeObjectURL(objectUrl);
+    };
+  }, [itemEncoded, theme]);
+
+  return (
+    <div className="share-card-preview mx-auto flex w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
+      {loading && (
+        <div className="flex min-h-[280px] w-full items-center justify-center bg-[#f7f4ee] text-sm text-secondary">
+          生成中…
+        </div>
+      )}
+      {previewUrl && !loading && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={previewUrl}
+          alt="分享卡片预览"
+          className="mx-auto block h-auto w-full"
+        />
+      )}
+      {error && !loading && (
+        <div className="flex min-h-[280px] w-full items-center justify-center px-4 text-center text-sm text-ochre">
+          {error}
+        </div>
+      )}
+    </div>
+  );
+}

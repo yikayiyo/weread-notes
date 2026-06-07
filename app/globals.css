@@ -103,9 +103,26 @@ html.dark {
 }
 
 html {
-  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+}
+
+html.scroll-locked {
+  overflow: hidden;
+}
+
+html.scroll-locked body {
+  overflow: hidden;
+  touch-action: none;
+  padding-right: var(--scrollbar-compensation, 0px);
+}
+
+html.scroll-locked .share-card-fab {
+  right: calc(
+    max(1.25rem, env(safe-area-inset-right, 0px)) +
+      var(--scrollbar-compensation, 0px)
+  );
 }
 
 body {
@@ -639,6 +656,32 @@ html.dark .first-run-code {
   box-shadow: var(--card-shadow);
 }
 
+.card-share-btn {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  z-index: 1;
+  width: 1.75rem;
+  height: 1.75rem;
+  opacity: 0;
+  transition:
+    opacity 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.group:hover .card-share-btn,
+.group:focus-within .card-share-btn,
+.card-share-btn:focus-visible {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .card-share-btn {
+    opacity: 0.72;
+  }
+}
+
 .note-card-body {
   padding: 1.5rem 1.25rem 1.375rem calc(var(--content-rail) - 1px);
 }
@@ -1011,6 +1054,23 @@ html.dark .sync-command code {
 .scroll-reveal-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.share-card-overlay {
+  overscroll-behavior: contain;
+  touch-action: none;
+  background: color-mix(in srgb, var(--text-primary) 28%, transparent);
+}
+
+.share-card-action {
+  padding-inline: 0.75rem;
+}
+
+.share-card-fab {
+  right: max(1.25rem, env(safe-area-inset-right, 0px));
+  bottom: max(1.5rem, env(safe-area-inset-bottom, 0px));
+  width: 3.25rem;
+  height: 3.25rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

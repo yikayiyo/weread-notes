@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  serverExternalPackages: ["@resvg/resvg-js"],
   images: {
     // VPN/TUN (e.g. Clash) resolves weread CDNs to 198.18.x.x; allow in dev only.
     dangerouslyAllowLocalIP: process.env.NODE_ENV === "development",

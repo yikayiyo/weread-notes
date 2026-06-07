@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { LenisProvider } from "@/components/LenisProvider";
+import { ShareCardShell } from "@/components/ShareCardShell";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
 
@@ -29,11 +31,15 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen font-body antialiased">
         <ThemeProvider>
-          <div className="page-enter page-shell mx-auto flex min-h-screen w-full flex-col">
-            <SiteHeader />
-            <main className="min-w-0 flex-1">{children}</main>
-            <SiteFooter />
-          </div>
+          <LenisProvider>
+            <ShareCardShell>
+              <div className="page-enter page-shell mx-auto flex min-h-screen w-full flex-col">
+                <SiteHeader />
+                <main className="min-w-0 flex-1">{children}</main>
+                <SiteFooter />
+              </div>
+            </ShareCardShell>
+          </LenisProvider>
         </ThemeProvider>
       </body>
     </html>

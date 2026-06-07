@@ -45,6 +45,10 @@ next-env.d.ts
 .probe-*.json
 sync.log
 
+# share-card local render tests
+share-test.svg
+share-test.png
+
 # per-book sync cache (local incremental sync; aggregates in data/*.json are committed)
 data/cache/
 
