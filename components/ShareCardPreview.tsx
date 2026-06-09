@@ -13,11 +13,13 @@ export function ShareCardPreview({
 }) {
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [loaded, setLoaded] = useState(false);
   const loading = !previewUrl && !error;
 
   useEffect(() => {
     let active = true;
     let objectUrl: string | null = null;
+    setLoaded(false);
 
     fetch(buildShareCardUrl(itemEncoded, theme, "svg"))
       .then(async (response) => {
@@ -41,10 +43,10 @@ export function ShareCardPreview({
   }, [itemEncoded, theme]);
 
   return (
-    <div className="share-card-preview mx-auto flex w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
+    <div className="share-card-preview mx-auto flex h-[360px] w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
       {loading && (
-        <div className="flex min-h-[280px] w-full items-center justify-center bg-[#f7f4ee] text-sm text-secondary">
-          生成中…
+        <div className="flex h-full w-full items-center justify-center bg-[#f7f4ee]">
+          <span className="spinner" />
         </div>
       )}
       {previewUrl && !loading && (
@@ -52,11 +54,12 @@ export function ShareCardPreview({
         <img
           src={previewUrl}
           alt="分享卡片预览"
-          className="mx-auto block h-auto w-full"
+          className={`share-card-preview-img h-full w-full object-contain${loaded ? " loaded" : ""}`}
+          onLoad={() => setLoaded(true)}
         />
       )}
       {error && !loading && (
-        <div className="flex min-h-[280px] w-full items-center justify-center px-4 text-center text-sm text-ochre">
+        <div className="flex h-full w-full items-center justify-center px-4 text-center text-sm text-ochre">
           {error}
         </div>
       )}

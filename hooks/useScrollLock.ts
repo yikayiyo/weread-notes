@@ -3,29 +3,11 @@
 import { useLenis } from "lenis/react";
 import { useEffect } from "react";
 
-function getScrollbarWidth(): number {
-  return window.innerWidth - document.documentElement.clientWidth;
-}
-
-function setScrollbarCompensation(width: number) {
-  if (width > 0) {
-    document.documentElement.style.setProperty(
-      "--scrollbar-compensation",
-      `${width}px`,
-    );
-  } else {
-    document.documentElement.style.removeProperty("--scrollbar-compensation");
-  }
-}
-
 export function useScrollLock(locked: boolean) {
   const lenis = useLenis();
 
   useEffect(() => {
     if (!locked) return;
-
-    const scrollbarWidth = getScrollbarWidth();
-    setScrollbarCompensation(scrollbarWidth);
 
     lenis?.stop();
     document.documentElement.classList.add("scroll-locked");
@@ -38,7 +20,6 @@ export function useScrollLock(locked: boolean) {
       restored = true;
       lenis?.start();
       document.documentElement.classList.remove("scroll-locked");
-      setScrollbarCompensation(0);
       if (!lenis) {
         window.scrollTo(0, scrollY);
       }

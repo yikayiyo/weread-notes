@@ -103,29 +103,25 @@ html.dark {
 }
 
 html {
-  scrollbar-gutter: stable;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
 html.scroll-locked {
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 html.scroll-locked body {
-  overflow: hidden;
   touch-action: none;
-  padding-right: var(--scrollbar-compensation, 0px);
 }
 
 html.scroll-locked .share-card-fab {
-  right: calc(
-    max(1.25rem, env(safe-area-inset-right, 0px)) +
-      var(--scrollbar-compensation, 0px)
-  );
+  right: max(1.25rem, env(safe-area-inset-right, 0px));
 }
 
 body {
+  overflow-y: scroll;
   background: var(--paper);
   color: var(--text-primary);
   font-family: var(--font-body);
@@ -1062,8 +1058,35 @@ html.dark .sync-command code {
   background: color-mix(in srgb, var(--text-primary) 28%, transparent);
 }
 
+.share-card-overlay:not([data-open]) {
+  display: none;
+}
+
 .share-card-action {
   padding-inline: 0.75rem;
+}
+
+.share-card-preview-img {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.share-card-preview-img.loaded {
+  opacity: 1;
+}
+
+.spinner {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid var(--border-subtle);
+  border-top-color: var(--text-secondary);
+  border-radius: 50%;
+  animation: spin 600ms linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .share-card-fab {
