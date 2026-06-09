@@ -45,8 +45,8 @@ export function ShareCardPreview({
   return (
     <div className="share-card-preview mx-auto flex h-[360px] w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
       {loading && (
-        <div className="flex h-full w-full items-center justify-center bg-[#f7f4ee] text-sm text-secondary">
-          生成中…
+        <div className="flex h-full w-full items-center justify-center bg-[#f7f4ee]">
+          <span className="spinner" />
         </div>
       )}
       {previewUrl && !loading && (
