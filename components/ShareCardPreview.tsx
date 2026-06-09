@@ -13,11 +13,13 @@ export function ShareCardPreview({
 }) {
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [loaded, setLoaded] = useState(false);
   const loading = !previewUrl && !error;
 
   useEffect(() => {
     let active = true;
     let objectUrl: string | null = null;
+    setLoaded(false);
 
     fetch(buildShareCardUrl(itemEncoded, theme, "svg"))
       .then(async (response) => {
@@ -52,7 +54,8 @@ export function ShareCardPreview({
         <img
           src={previewUrl}
           alt="分享卡片预览"
-          className="h-full w-full object-contain"
+          className={`share-card-preview-img h-full w-full object-contain${loaded ? " loaded" : ""}`}
+          onLoad={() => setLoaded(true)}
         />
       )}
       {error && !loading && (

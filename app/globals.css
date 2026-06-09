@@ -1066,6 +1066,15 @@ html.dark .sync-command code {
   padding-inline: 0.75rem;
 }
 
+.share-card-preview-img {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.share-card-preview-img.loaded {
+  opacity: 1;
+}
+
 .share-card-fab {
   right: max(1.25rem, env(safe-area-inset-right, 0px));
   bottom: max(1.5rem, env(safe-area-inset-bottom, 0px));
