@@ -5,7 +5,7 @@ import { CurrentlyReadingCard } from "./CurrentlyReadingCard";
 
 export function RecommendedBookSection({ book }: { book: Book }) {
   return (
-    <PageSection accent="ochre" bleed>
+    <PageSection>
       <SectionHeading
         title="我的推荐"
         accent="ochre"

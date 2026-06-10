@@ -7,16 +7,18 @@ export function SectionHeading({
   href,
   linkLabel,
   accent,
+  initialVisible = false,
 }: {
   title: string;
   href?: string;
   linkLabel?: string;
   accent?: SectionAccent;
+  initialVisible?: boolean;
 }) {
   const colors = accent ? sectionAccents[accent] : null;
 
   return (
-    <ScrollReveal>
+    <ScrollReveal initialVisible={initialVisible}>
       <div className="flex items-baseline justify-between gap-4">
         <div className="flex items-center gap-3">
           {colors && (

@@ -129,7 +129,7 @@ function ContentTabToggle({
     >
       <span
         aria-hidden="true"
-        className={`segmented-control-indicator ${accent.bar} motion-reduce:transition-none ${
+        className={`segmented-control-indicator ${accent.surface} motion-reduce:transition-none ${
           tab === "notes" ? "translate-x-full" : "translate-x-0"
         }`}
       />
@@ -147,7 +147,7 @@ function ContentTabToggle({
           onClick={() => onChange(key)}
           className={`segmented-control-btn ${
             tab === key
-              ? "text-white"
+              ? `${accent.tabActive} font-medium`
               : "text-secondary hover:text-primary"
           }`}
         >
@@ -398,7 +398,7 @@ export function NotesExplorer({
           placeholder="搜索摘录内容…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="input-line w-full py-2 text-sm text-primary placeholder:text-secondary focus:border-ochre"
+          className="input-line w-full text-sm text-primary placeholder:text-[var(--text-placeholder)] focus:border-ochre"
         />
 
         {selectedBook && (
@@ -432,12 +432,12 @@ export function NotesExplorer({
           placeholder="搜索书名或作者…"
           value={bookQuery}
           onChange={(e) => setBookQuery(e.target.value)}
-          className="input-line w-full py-2 text-sm text-primary placeholder:text-secondary focus:border-ochre"
+          className="input-line w-full text-sm text-primary placeholder:text-[var(--text-placeholder)] focus:border-ochre"
         />
 
         {trimmedBookQuery ? (
           matchingBooks.length === 0 ? (
-            <p className="text-sm text-secondary">没有匹配的书籍。</p>
+            <p className="empty-state-inline">没有匹配的书籍。</p>
           ) : (
             <ul className="divide-y divide-border rounded-sm border border-border">
               {matchingBooks.slice(0, SEARCH_RESULT_LIMIT).map(({ book }) => (
@@ -551,13 +551,13 @@ export function NotesExplorer({
         )}
 
         {tab === "highlights" && filteredHighlights.length === 0 && (
-          <p className="text-secondary">
+          <p className="empty-state-content">
             {bookId ? "这本书暂无匹配的划线。" : "没有找到匹配的划线。"}
           </p>
         )}
 
         {tab === "notes" && filteredNotes.length === 0 && (
-          <p className="text-secondary">
+          <p className="empty-state-content">
             {bookId ? "这本书暂无匹配的笔记。" : "没有找到匹配的笔记。"}
           </p>
         )}

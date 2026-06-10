@@ -17,7 +17,7 @@ export function CardShareButton({
     <button
       type="button"
       onClick={() => openWithItem(item, theme)}
-      className="card-share-btn touch-target inline-flex items-center justify-center rounded-sm border border-border bg-paper/90 text-secondary backdrop-blur-[2px] transition-colors hover:border-accent hover:text-accent"
+      className="card-share-btn touch-target inline-flex items-center justify-center rounded-sm border border-border bg-paper text-secondary transition-colors hover:border-accent hover:text-accent"
       aria-label="分享摘录"
       title="分享摘录"
     >

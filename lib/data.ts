@@ -78,17 +78,11 @@ export function getRecentHighlights(
   highlights: Highlight[],
   limit = 5,
 ): Highlight[] {
-  return sortByDate(filterVisibleHighlights(highlights), (h) => h.createdAt).slice(
-    0,
-    limit,
-  );
+  return sortByDate(highlights, (h) => h.createdAt).slice(0, limit);
 }
 
 export function getRecentNotes(notes: Note[], limit = 5): Note[] {
-  return sortByDate(filterVisibleNotes(notes), (n) => n.createdAt).slice(
-    0,
-    limit,
-  );
+  return sortByDate(notes, (n) => n.createdAt).slice(0, limit);
 }
 
 export function groupBooksByYearMonth(

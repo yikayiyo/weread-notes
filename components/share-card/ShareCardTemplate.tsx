@@ -1,36 +1,88 @@
-import type { ShareItem, ShareTheme } from "@/lib/share-pool";
+import type { ShareItem, ShareMode, ShareTheme } from "@/lib/share-pool";
 import { formatCitationDate } from "@/lib/format";
 import { scaleFontSize, SHARE_CARD_WIDTH } from "@/lib/share-card-layout";
+import { siteMarkSvgDataUrl } from "@/lib/site-mark-data";
 
-/** 对齐 globals.css 浅色主题 */
-const SITE = {
-  paper: "#f7f4ee",
-  cardSurface: "#fdfbf6",
-  cardBorder: "#ddd8ce",
-  textPrimary: "#171717",
-  textSecondary: "#6a6863",
-  textCitation: "#8c8c8c",
-  surfaceMuted: "#ede9e1",
-  border: "#e8e4dc",
+const SHARE_CARD_HEADER_HEIGHT = 30;
+const SHARE_CARD_LOGO_HEIGHT = SHARE_CARD_HEADER_HEIGHT;
+const SHARE_CARD_LOGO_WIDTH = Math.round(
+  SHARE_CARD_LOGO_HEIGHT * (134 / 49),
+);
+/** 与 SectionHeading 比例一致：色条略低于 logo 视觉高度 */
+const SHARE_CARD_BAR_HEIGHT = 22;
+const SHARE_CARD_HEADER_GAP = 14;
+
+type SitePalette = {
+  paper: string;
+  cardSurface: string;
+  cardBorder: string;
+  textPrimary: string;
+  textSecondary: string;
+  textCitation: string;
+  citationTitle: string;
+  surfaceMuted: string;
+  border: string;
+  quoteBg: string;
+  highlightMix: number;
+  cardShadow: string;
 };
 
-const SECTION_ACCENTS: Record<ShareTheme, string> = {
-  paper: "#5b7a6b",
-  ochre: "#8a7344",
-  mauve: "#8b6b7a",
+/** 对齐 globals.css 浅色 / 深色主题 */
+const PALETTES: Record<ShareMode, SitePalette> = {
+  light: {
+    paper: "#f7f4ee",
+    cardSurface: "#fdfbf6",
+    cardBorder: "#ddd8ce",
+    textPrimary: "#171717",
+    textSecondary: "#6a6863",
+    textCitation: "#8c8c8c",
+    citationTitle: "#9a9894",
+    surfaceMuted: "#ede9e1",
+    border: "#e8e4dc",
+    quoteBg: "#f3f1ec",
+    highlightMix: 0.24,
+    cardShadow:
+      "0 1px 2px rgba(23, 23, 23, 0.05), 0 2px 8px rgba(23, 23, 23, 0.03)",
+  },
+  dark: {
+    paper: "#1a1916",
+    cardSurface: "#252320",
+    cardBorder: "#3a3834",
+    textPrimary: "#e8e4dc",
+    textSecondary: "#9a968f",
+    textCitation: "#7a7874",
+    citationTitle: "#8a8884",
+    surfaceMuted: "#252320",
+    border: "#2e2c28",
+    quoteBg: "#22201d",
+    highlightMix: 0.12,
+    cardShadow: "none",
+  },
 };
 
-const CARD_SHADOW =
-  "0 1px 2px rgba(23, 23, 23, 0.05), 0 2px 8px rgba(23, 23, 23, 0.03)";
+const SECTION_ACCENTS: Record<
+  ShareMode,
+  Record<ShareTheme, string>
+> = {
+  light: {
+    paper: "#5b7a6b",
+    ochre: "#8a7344",
+    mauve: "#8b6b7a",
+  },
+  dark: {
+    paper: "#8aab96",
+    ochre: "#c4a86a",
+    mauve: "#a88898",
+  },
+};
 
-function mixWithSurface(hex: string, ratio = 0.24): string {
-  const n = parseInt(hex.slice(1), 16);
-  const r = (n >> 16) & 255;
-  const g = (n >> 8) & 255;
-  const b = n & 255;
-  const br = 253;
-  const bg = 251;
-  const bb = 246;
+function mixWithSurface(hex: string, surface: string, ratio: number): string {
+  const parse = (color: string) => {
+    const n = parseInt(color.slice(1), 16);
+    return [(n >> 16) & 255, (n >> 8) & 255, n & 255] as const;
+  };
+  const [r, g, b] = parse(hex);
+  const [br, bg, bb] = parse(surface);
   const mix = (c: number, bc: number) =>
     Math.round(c * ratio + bc * (1 - ratio));
   const toHex = (v: number) => v.toString(16).padStart(2, "0");
@@ -40,9 +92,16 @@ function mixWithSurface(hex: string, ratio = 0.24): string {
 type ShareCardTemplateProps = {
   item: ShareItem;
   theme: ShareTheme;
+  mode?: ShareMode;
 };
 
-function HighlightBody({ item }: { item: ShareItem & { kind: "highlight" } }) {
+function HighlightBody({
+  item,
+  palette,
+}: {
+  item: ShareItem & { kind: "highlight" };
+  palette: SitePalette;
+}) {
   const mainSize = scaleFontSize(item.content.length, 48, 34);
   return (
     <div
@@ -52,7 +111,7 @@ function HighlightBody({ item }: { item: ShareItem & { kind: "highlight" } }) {
         fontSize: mainSize,
         lineHeight: 1.78,
         fontWeight: 400,
-        color: SITE.textPrimary,
+        color: palette.textPrimary,
       }}
     >
       {item.content}
@@ -63,9 +122,11 @@ function HighlightBody({ item }: { item: ShareItem & { kind: "highlight" } }) {
 function NoteBody({
   item,
   ribbon,
+  palette,
 }: {
   item: ShareItem & { kind: "note" };
   ribbon: string;
+  palette: SitePalette;
 }) {
   const mainText = item.content || item.quote || "";
   const mainSize = scaleFontSize(mainText.length, 48, 34);
@@ -86,7 +147,7 @@ function NoteBody({
             fontSize: mainSize,
             lineHeight: 1.78,
             fontWeight: 400,
-            color: SITE.textPrimary,
+            color: palette.textPrimary,
           }}
         >
           {item.content}
@@ -100,7 +161,7 @@ function NoteBody({
             display: "flex",
             gap: 20,
             padding: "20px 24px 20px 20px",
-            backgroundColor: "#f3f1ec",
+            backgroundColor: palette.quoteBg,
             borderRadius: 6,
           }}
         >
@@ -121,7 +182,7 @@ function NoteBody({
               flex: 1,
               fontSize: scaleFontSize(item.quote.length, 28, 22),
               lineHeight: 1.65,
-              color: SITE.textSecondary,
+              color: palette.textSecondary,
               fontWeight: 400,
             }}
           >
@@ -137,7 +198,13 @@ function NoteBody({
 
 const CITATION_TITLE_FONT = 26;
 
-function CardFooter({ item }: { item: ShareItem }) {
+function CardFooter({
+  item,
+  palette,
+}: {
+  item: ShareItem;
+  palette: SitePalette;
+}) {
   const metaParts: string[] = [];
   if (item.chapterTitle) metaParts.push(`〈${item.chapterTitle}〉`);
   if (item.createdAt) metaParts.push(formatCitationDate(item.createdAt));
@@ -148,7 +215,7 @@ function CardFooter({ item }: { item: ShareItem }) {
       style={{
         display: "flex",
         flexDirection: "column",
-        borderTop: `1px solid ${SITE.border}`,
+        borderTop: `1px solid ${palette.border}`,
         paddingTop: 28,
         marginTop: 40,
       }}
@@ -166,7 +233,7 @@ function CardFooter({ item }: { item: ShareItem }) {
             display: "flex",
             fontSize: CITATION_TITLE_FONT,
             lineHeight: 1.5,
-            color: "#9a9894",
+            color: palette.citationTitle,
           }}
         >
           《{item.bookTitle}》
@@ -177,7 +244,7 @@ function CardFooter({ item }: { item: ShareItem }) {
               display: "flex",
               fontSize: 24,
               lineHeight: 1.5,
-              color: SITE.textSecondary,
+              color: palette.textSecondary,
             }}
           >
             {item.bookAuthor}
@@ -192,7 +259,7 @@ function CardFooter({ item }: { item: ShareItem }) {
               display: "flex",
               fontSize: 22,
               lineHeight: 1.55,
-              color: SITE.textCitation,
+              color: palette.textCitation,
             }}
           >
             {metaLine}
@@ -205,12 +272,28 @@ function CardFooter({ item }: { item: ShareItem }) {
   );
 }
 
-export function ShareCardTemplate({ item, theme }: ShareCardTemplateProps) {
-  const sectionAccent = SECTION_ACCENTS[theme];
+export function ShareCardTemplate({
+  item,
+  theme,
+  mode = "light",
+}: ShareCardTemplateProps) {
+  const palette = PALETTES[mode];
+  const sectionAccent = SECTION_ACCENTS[mode][theme];
   const isHighlight = item.kind === "highlight";
+
   const cardBg = isHighlight
-    ? mixWithSurface(item.accent)
-    : SITE.cardSurface;
+    ? mode === "dark"
+      ? palette.surfaceMuted
+      : mixWithSurface(item.accent, palette.cardSurface, palette.highlightMix)
+    : mode === "dark"
+      ? palette.surfaceMuted
+      : palette.cardSurface;
+
+  const cardBorderStyle =
+    mode === "dark" && isHighlight
+      ? `1px solid ${palette.cardBorder}`
+      : `1px solid ${palette.cardBorder}`;
+
   return (
     <div
       style={{
@@ -219,51 +302,46 @@ export function ShareCardTemplate({ item, theme }: ShareCardTemplateProps) {
         justifyContent: "center",
         width: SHARE_CARD_WIDTH,
         height: "100%",
-        backgroundColor: SITE.paper,
+        backgroundColor: palette.paper,
         padding: "64px 68px 68px",
         fontFamily: "Noto Serif SC",
-        color: SITE.textPrimary,
+        color: palette.textPrimary,
       }}
     >
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          gap: 18,
+          height: SHARE_CARD_HEADER_HEIGHT,
+          gap: SHARE_CARD_HEADER_GAP,
         }}
       >
         <div
           style={{
             display: "flex",
             width: 3,
-            height: 32,
+            height: SHARE_CARD_BAR_HEIGHT,
             borderRadius: 9999,
             backgroundColor: sectionAccent,
             flexShrink: 0,
           }}
         />
-        <div
-          lang="zh-CN"
+        <img
+          src={siteMarkSvgDataUrl(
+            palette.textPrimary,
+            SHARE_CARD_LOGO_WIDTH,
+            SHARE_CARD_LOGO_HEIGHT,
+          )}
+          width={SHARE_CARD_LOGO_WIDTH}
+          height={SHARE_CARD_LOGO_HEIGHT}
+          alt=""
           style={{
             display: "flex",
-            fontSize: 36,
-            fontWeight: 400,
-            letterSpacing: "0.04em",
-            color: SITE.textPrimary,
+            width: SHARE_CARD_LOGO_WIDTH,
+            height: SHARE_CARD_LOGO_HEIGHT,
+            flexShrink: 0,
           }}
-        >
-          不高山
-        </div>
-        <div
-          style={{
-            display: "flex",
-            fontSize: 24,
-            letterSpacing: "0.2em",
-            color: sectionAccent,
-          }}
-        >
-          摘录
-        </div>
+        />
       </div>
 
       <div
@@ -271,10 +349,14 @@ export function ShareCardTemplate({ item, theme }: ShareCardTemplateProps) {
           display: "flex",
           flexDirection: "column",
           marginTop: 44,
-          border: `1px solid ${SITE.cardBorder}`,
+          border: cardBorderStyle,
+          borderTop:
+            mode === "dark" && isHighlight
+              ? `2px solid ${item.accent}`
+              : cardBorderStyle,
           borderRadius: 2,
           backgroundColor: cardBg,
-          boxShadow: CARD_SHADOW,
+          boxShadow: palette.cardShadow,
           padding: "52px 44px 44px 52px",
         }}
       >
@@ -286,13 +368,13 @@ export function ShareCardTemplate({ item, theme }: ShareCardTemplateProps) {
           }}
         >
           {isHighlight ? (
-            <HighlightBody item={item} />
+            <HighlightBody item={item} palette={palette} />
           ) : (
-            <NoteBody item={item} ribbon={sectionAccent} />
+            <NoteBody item={item} ribbon={sectionAccent} palette={palette} />
           )}
         </div>
 
-        <CardFooter item={item} />
+        <CardFooter item={item} palette={palette} />
       </div>
     </div>
   );

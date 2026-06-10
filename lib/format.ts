@@ -33,3 +33,7 @@ export function bookLookup<T extends { id: string; title: string; author: string
 ): T | undefined {
   return books.find((b) => b.id === bookId);
 }
+
+export function createBookMap<T extends { id: string }>(books: T[]): Map<string, T> {
+  return new Map(books.map((b) => [b.id, b]));
+}

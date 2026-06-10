@@ -27,7 +27,8 @@ export function SiteNav() {
           <Link
             key={link.href}
             href={link.href}
-            className={`inline-flex min-h-11 items-center transition-colors ${
+            prefetch={link.href === "/" || link.href === "/about"}
+            className={`inline-flex min-h-11 items-center rounded-[2px] focus-ring transition-colors ${
               active
                 ? `${accent.tabActive} font-medium`
                 : "hover:text-accent"

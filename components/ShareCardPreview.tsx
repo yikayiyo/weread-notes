@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { ShareTheme } from "@/lib/share-pool";
+import type { ShareMode, ShareTheme } from "@/lib/share-pool";
 import { buildShareCardUrl } from "@/lib/share-download";
+import { useTheme } from "./ThemeProvider";
 
 export function ShareCardPreview({
   itemEncoded,
@@ -11,17 +12,23 @@ export function ShareCardPreview({
   itemEncoded: string;
   theme: ShareTheme;
 }) {
+  const { theme: siteTheme, mounted } = useTheme();
+  const mode: ShareMode = mounted && siteTheme === "dark" ? "dark" : "light";
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loaded, setLoaded] = useState(false);
   const loading = !previewUrl && !error;
 
   useEffect(() => {
+    if (!mounted) return;
+
     let active = true;
     let objectUrl: string | null = null;
+    setPreviewUrl(null);
+    setError(null);
     setLoaded(false);
 
-    fetch(buildShareCardUrl(itemEncoded, theme, "svg"))
+    fetch(buildShareCardUrl(itemEncoded, theme, "svg", mode))
       .then(async (response) => {
         if (!response.ok) throw new Error("preview failed");
         return response.blob();
@@ -40,16 +47,16 @@ export function ShareCardPreview({
       active = false;
       if (objectUrl) URL.revokeObjectURL(objectUrl);
     };
-  }, [itemEncoded, theme]);
+  }, [itemEncoded, theme, mode, mounted]);
 
   return (
     <div className="share-card-preview mx-auto flex h-[360px] w-full max-w-[360px] items-center justify-center overflow-hidden rounded-[2px] border border-border bg-paper">
-      {loading && (
-        <div className="flex h-full w-full items-center justify-center bg-[#f7f4ee]">
+      {(!mounted || loading) && (
+        <div className="flex h-full w-full items-center justify-center bg-surface-muted">
           <span className="spinner" />
         </div>
       )}
-      {previewUrl && !loading && (
+      {previewUrl && !loading && mounted && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={previewUrl}
@@ -58,7 +65,7 @@ export function ShareCardPreview({
           onLoad={() => setLoaded(true)}
         />
       )}
-      {error && !loading && (
+      {error && !loading && mounted && (
         <div className="flex h-full w-full items-center justify-center px-4 text-center text-sm text-ochre">
           {error}
         </div>

@@ -39,6 +39,7 @@ export default function HomePage() {
             href="/archive"
             linkLabel="全部藏书 →"
             accent="sage"
+            initialVisible
           />
           <ul className="book-grid">
             {reading.map((book, index) => (
@@ -46,6 +47,8 @@ export default function HomePage() {
                 key={book.id}
                 book={book}
                 index={index}
+                priority={index <= 1}
+                initialVisible
               />
             ))}
           </ul>

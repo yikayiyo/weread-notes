@@ -1,23 +1,36 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
 import type { Book } from "@/lib/types";
 import { readingCardAccent } from "@/lib/colors";
+import { BookCoverImage } from "./BookCoverImage";
 import { ScrollReveal } from "./ScrollReveal";
 
 export function CurrentlyReadingCard({
   book,
   index = 0,
+  priority = false,
+  initialVisible = false,
 }: {
   book: Book;
   index?: number;
+  priority?: boolean;
+  initialVisible?: boolean;
 }) {
   const inProgress = book.progress > 0 && book.progress < 100;
   const accent = readingCardAccent(index);
 
+  const coverFallback = (
+    <span
+      className="flex h-full items-center justify-center px-2 text-center text-xs"
+      style={{ color: accent }}
+    >
+      {book.title}
+    </span>
+  );
+
   return (
     <li>
-      <ScrollReveal delayMs={index * 80}>
+      <ScrollReveal delayMs={index * 80} initialVisible={initialVisible}>
         <Link
           href={`/notes?book=${book.id}`}
           className="group block space-y-3"
@@ -31,20 +44,15 @@ export function CurrentlyReadingCard({
             }}
           >
             {book.cover ? (
-              <Image
+              <BookCoverImage
                 src={book.cover}
                 alt={book.title}
-                fill
-                className="object-cover"
                 sizes="(max-width: 640px) 30vw, 150px"
+                priority={priority}
+                fallback={coverFallback}
               />
             ) : (
-              <span
-                className="flex h-full items-center justify-center px-2 text-center text-xs"
-                style={{ color: accent }}
-              >
-                {book.title}
-              </span>
+              coverFallback
             )}
           </div>
           <div className="space-y-2">
@@ -63,16 +71,14 @@ export function CurrentlyReadingCard({
                   aria-label={`阅读进度 ${book.progress}%`}
                 >
                   <div
-                    className="h-full rounded-full transition-all duration-500"
+                    className="h-full rounded-full transition-all duration-500 motion-reduce:transition-none"
                     style={{
                       width: `${book.progress}%`,
                       backgroundColor: accent,
                     }}
                   />
                 </div>
-                <p
-                  className="text-xs tabular-nums text-(--card-accent)"
-                >
+                <p className="text-xs tabular-nums text-(--card-accent)">
                   {book.progress}%
                 </p>
               </div>

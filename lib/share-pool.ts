@@ -1,9 +1,11 @@
 import type { ArchiveData, Book, Highlight, Note } from "./types";
-import { bookLookup } from "./format";
+import { createBookMap } from "./format";
 import { highlightStyle } from "./colors";
 import { normalizeExcerptText } from "./excerpt-filter";
 
 export type ShareTheme = "paper" | "ochre" | "mauve";
+
+export type ShareMode = "light" | "dark";
 
 export type ShareHighlightItem = {
   kind: "highlight";
@@ -62,16 +64,17 @@ export function noteToShareItem(note: Note, book: Book): ShareNoteItem {
 
 export function buildSharePool(data: ArchiveData): ShareItem[] {
   const { books, highlights, notes } = data;
+  const bookMap = createBookMap(books);
   const pool: ShareItem[] = [];
 
   for (const highlight of highlights) {
-    const book = bookLookup(books, highlight.bookId);
+    const book = bookMap.get(highlight.bookId);
     if (!hasBookTitle(book)) continue;
     pool.push(highlightToShareItem(highlight, book));
   }
 
   for (const note of notes) {
-    const book = bookLookup(books, note.bookId);
+    const book = bookMap.get(note.bookId);
     if (!hasBookTitle(book)) continue;
     pool.push(noteToShareItem(note, book));
   }
@@ -85,6 +88,10 @@ export function pickRandomShareItem(pool: ShareItem[]): ShareItem | null {
 }
 
 export const SHARE_THEMES: ShareTheme[] = ["paper", "ochre", "mauve"];
+
+export function parseShareMode(value: string | null): ShareMode {
+  return value === "dark" ? "dark" : "light";
+}
 
 export function pickRandomTheme(): ShareTheme {
   return SHARE_THEMES[Math.floor(Math.random() * SHARE_THEMES.length)] ?? "paper";

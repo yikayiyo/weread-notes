@@ -22,7 +22,7 @@ export default function ArchivePage() {
         isArchiveEmpty() ? (
           <FirstRunWelcome variant="compact" context="archive" />
         ) : (
-          <p className="text-secondary">暂无藏书记录。</p>
+          <p className="empty-state">暂无藏书记录。</p>
         )
       ) : (
         <ArchiveExplorer groups={groups} />

@@ -16,7 +16,7 @@ export function PageSection({
   return (
     <section
       className={[
-        "space-y-[var(--block-gap)] rounded-sm py-[var(--block-gap)]",
+        "space-y-[var(--block-gap)] rounded-sm pb-[var(--block-gap)] pt-[var(--block-gap)] first:pt-0",
         surface,
         bleed ? "-mx-[var(--page-gutter)] px-[var(--page-gutter)]" : "",
         className,

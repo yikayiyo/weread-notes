@@ -5,11 +5,14 @@ import { useScrollLock } from "@/hooks/useScrollLock";
 import { useShareCard } from "./ShareCardProvider";
 import { ShareCardPreview } from "./ShareCardPreview";
 import { buildShareCardUrl, downloadBlob } from "@/lib/share-download";
-import { shareDownloadFilename } from "@/lib/share-pool";
+import { shareDownloadFilename, type ShareMode } from "@/lib/share-pool";
+import { useTheme } from "./ThemeProvider";
 
 export function ShareCardModal() {
   const { open, source, item, theme, itemEncoded, close, shuffle, pool } =
     useShareCard();
+  const { theme: siteTheme, mounted } = useTheme();
+  const mode: ShareMode = mounted && siteTheme === "dark" ? "dark" : "light";
   const fromCard = source === "card";
   const [exporting, setExporting] = useState<"png" | "svg" | null>(null);
   const [exportError, setExportError] = useState<string | null>(null);
@@ -31,7 +34,7 @@ export function ShareCardModal() {
     setExportError(null);
     try {
       const response = await fetch(
-        buildShareCardUrl(itemEncoded, theme, format),
+        buildShareCardUrl(itemEncoded, theme, format, mode),
       );
       if (!response.ok) throw new Error("导出失败");
       const blob = await response.blob();
@@ -90,7 +93,7 @@ export function ShareCardModal() {
           <>
             {itemEncoded && (
               <ShareCardPreview
-                key={`${itemEncoded}-${theme}`}
+                key={`${itemEncoded}-${theme}-${mode}`}
                 itemEncoded={itemEncoded}
                 theme={theme}
               />

@@ -6,15 +6,19 @@ export function ScrollReveal({
   children,
   className = "",
   delayMs = 0,
+  initialVisible = false,
 }: {
   children: ReactNode;
   className?: string;
   delayMs?: number;
+  initialVisible?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(initialVisible);
 
   useEffect(() => {
+    if (initialVisible) return;
+
     const reducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
@@ -38,7 +42,7 @@ export function ScrollReveal({
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [initialVisible]);
 
   return (
     <div
