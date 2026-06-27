@@ -16,7 +16,7 @@ export function CurrentlyReadingCard({
   priority?: boolean;
   initialVisible?: boolean;
 }) {
-  const inProgress = book.progress > 0 && book.progress < 100;
+  const showProgress = book.progress > 0;
   const accent = readingCardAccent(index);
 
   const coverFallback = (
@@ -60,7 +60,7 @@ export function CurrentlyReadingCard({
               {book.title}
             </p>
             <p className="text-xs text-secondary line-clamp-1">{book.author}</p>
-            {inProgress && (
+            {showProgress && (
               <div className="space-y-1.5">
                 <div
                   className="h-0.5 overflow-hidden rounded-full bg-border"

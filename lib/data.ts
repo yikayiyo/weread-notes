@@ -64,7 +64,7 @@ export function getArchiveData(): ArchiveData {
 
 export function getCurrentlyReading(books: Book[]): Book[] {
   return books
-    .filter((b) => b.progress > 0 && b.progress < 100)
+    .filter((b) => b.progress > 0)
     .sort((a, b) => ts(b.lastReadAt) - ts(a.lastReadAt));
 }
 
