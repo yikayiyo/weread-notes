@@ -6,11 +6,22 @@
     "cover": "https://cdn.weread.qq.com/weread/cover/2/yuewen_26441414/t6_yuewen_264414141682244020.jpg",
     "category": "文学-外国文学",
     "progress": 100,
-    "lastReadAt": "2026-06-26T11:41:52.000Z",
-    "highlightCount": 35,
+    "lastReadAt": "2026-07-05T14:24:31.000Z",
+    "highlightCount": 50,
     "noteCount": 6,
     "startedAt": "2024-11-10T16:25:29.000Z",
     "finishedAt": "2025-05-28T17:03:03.000Z"
+  },
+  {
+    "id": "23869154",
+    "title": "美国少儿英语（英文彩色插图版）（第二辑·第3册）",
+    "author": "威廉·H.爱尔森 卢娜·E.伦克尔",
+    "cover": "https://cdn.weread.qq.com/weread/cover/74/YueWen_23869154/t6_YueWen_23869154.jpg",
+    "category": "教育学习-外语",
+    "progress": 0,
+    "lastReadAt": "2026-07-05T09:42:28.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
   },
   {
     "id": "3300131225",
@@ -6590,22 +6601,11 @@
     "noteCount": 0
   },
   {
-    "id": "924637",
-    "title": "幽暗国度",
-    "author": "V.S.奈保尔",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/637/924637/t6_924637.jpg",
-    "category": "文学-外国文学",
-    "progress": 0,
-    "lastReadAt": "2019-07-04T09:44:37.000Z",
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "22370033",
-    "title": "奈保尔家书",
-    "author": "V.S. 奈保尔",
-    "cover": "https://cdn.weread.qq.com/weread/cover/80/YueWen_22370033/t6_YueWen_22370033.jpg",
-    "category": "文学-散文杂著",
+    "id": "921792",
+    "title": "追寻历史：一个记者和他的20世纪",
+    "author": "白修德",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/792/921792/t6_921792.jpg",
+    "category": "历史-世界史",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
@@ -6623,22 +6623,33 @@
     "noteCount": 0
   },
   {
-    "id": "921792",
-    "title": "追寻历史：一个记者和他的20世纪",
-    "author": "白修德",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/792/921792/t6_921792.jpg",
-    "category": "历史-世界史",
+    "id": "814286",
+    "title": "爱默生随笔：用心聆听世界",
+    "author": "拉尔夫·华尔多·爱默生",
+    "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_814286/t6_YueWen_814286.jpg",
+    "category": "文学-散文杂著",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "814286",
-    "title": "爱默生随笔：用心聆听世界",
-    "author": "拉尔夫·华尔多·爱默生",
-    "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_814286/t6_YueWen_814286.jpg",
+    "id": "22370033",
+    "title": "奈保尔家书",
+    "author": "V.S. 奈保尔",
+    "cover": "https://cdn.weread.qq.com/weread/cover/80/YueWen_22370033/t6_YueWen_22370033.jpg",
     "category": "文学-散文杂著",
+    "progress": 0,
+    "lastReadAt": "2019-07-04T09:44:37.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "924637",
+    "title": "幽暗国度",
+    "author": "V.S.奈保尔",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/637/924637/t6_924637.jpg",
+    "category": "文学-外国文学",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
@@ -7443,78 +7454,11 @@
     "noteCount": 0
   },
   {
-    "id": "CB_1We7eW7d2A6t6Nf6Ln",
-    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
-    "author": "亚当·罗宾逊",
-    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_9UC06007nBqn6OD6Ln",
-    "title": "Information architecture for the World Wide Web",
-    "author": "Louis Rosenfeld",
-    "cover": "https://res.weread.qq.com/wrepub/CB_9UC06007nBqn6OD6Ln_parsecover",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "26211871",
-    "title": "SQL基础教程（第2版）",
-    "author": "[日]MICK",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg",
+    "id": "687994",
+    "title": "编程之美",
+    "author": "《编程之美》小组",
+    "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_687994/t6_YueWen_687994.jpg",
     "category": "计算机-编程设计",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "914691",
-    "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
-    "author": "老舍",
-    "cover": "https://cdn.weread.qq.com/weread/cover/22/YueWen_914691/t6_YueWen_914691.jpg",
-    "category": "精品小说-社会小说",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "23303592",
-    "title": "钢铁是怎样炼成的",
-    "author": "[苏]奥斯特洛夫斯基",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/592/23303592/t6_23303592.jpg",
-    "category": "文学-外国文学",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_13tERpEOo35e6Q66Pw",
-    "title": "告白",
-    "author": "湊佳苗",
-    "cover": "https://weread-1258476243.file.myqcloud.com/app/assets/bookcover/book_cover_default_imported_03.png",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "26687224",
-    "title": "UI设计与认知心理学（全彩）",
-    "author": "郑昊",
-    "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_26687224/t6_YueWen_26687224.jpg",
-    "category": "心理-心理学研究",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "26631276",
-    "title": "《经济学人》百词斩（每日一词100期合辑）",
-    "author": "经济学人·商论",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/276/26631276/t6_26631276.jpg",
-    "category": "教育学习-外语",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7530,31 +7474,68 @@
     "noteCount": 0
   },
   {
-    "id": "687994",
-    "title": "编程之美",
-    "author": "《编程之美》小组",
-    "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_687994/t6_YueWen_687994.jpg",
+    "id": "26631276",
+    "title": "《经济学人》百词斩（每日一词100期合辑）",
+    "author": "经济学人·商论",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/276/26631276/t6_26631276.jpg",
+    "category": "教育学习-外语",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "26687224",
+    "title": "UI设计与认知心理学（全彩）",
+    "author": "郑昊",
+    "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_26687224/t6_YueWen_26687224.jpg",
+    "category": "心理-心理学研究",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "26211871",
+    "title": "SQL基础教程（第2版）",
+    "author": "[日]MICK",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg",
     "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "22651317",
-    "title": "深度学习",
-    "author": "伊恩·古德费洛 约书亚·本吉奥",
-    "cover": "https://cdn.weread.qq.com/weread/cover/15/YueWen_22651317/t6_YueWen_22651317.jpg",
-    "category": "计算机-人工智能",
+    "id": "CB_1We7eW7d2A6t6Nf6Ln",
+    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
+    "author": "亚当·罗宾逊",
+    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "29972004",
-    "title": "Python数据结构与算法分析（第2版）",
-    "author": "布拉德利·米勒 戴维·拉努姆",
-    "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_29972004/t6_YueWen_29972004.jpg",
-    "category": "计算机-编程设计",
+    "id": "CB_13tERpEOo35e6Q66Pw",
+    "title": "告白",
+    "author": "湊佳苗",
+    "cover": "https://weread-1258476243.file.myqcloud.com/app/assets/bookcover/book_cover_default_imported_03.png",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "CB_9UC06007nBqn6OD6Ln",
+    "title": "Information architecture for the World Wide Web",
+    "author": "Louis Rosenfeld",
+    "cover": "https://res.weread.qq.com/wrepub/CB_9UC06007nBqn6OD6Ln_parsecover",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "914691",
+    "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
+    "author": "老舍",
+    "cover": "https://cdn.weread.qq.com/weread/cover/22/YueWen_914691/t6_YueWen_914691.jpg",
+    "category": "精品小说-社会小说",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7595,6 +7576,36 @@
     "author": "杰伊·温格罗",
     "cover": "https://cdn.weread.qq.com/weread/cover/13/YueWen_26211939/t6_YueWen_26211939.jpg",
     "category": "计算机-数据库",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "29972004",
+    "title": "Python数据结构与算法分析（第2版）",
+    "author": "布拉德利·米勒 戴维·拉努姆",
+    "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_29972004/t6_YueWen_29972004.jpg",
+    "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "22651317",
+    "title": "深度学习",
+    "author": "伊恩·古德费洛 约书亚·本吉奥",
+    "cover": "https://cdn.weread.qq.com/weread/cover/15/YueWen_22651317/t6_YueWen_22651317.jpg",
+    "category": "计算机-人工智能",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "23303592",
+    "title": "钢铁是怎样炼成的",
+    "author": "[苏]奥斯特洛夫斯基",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/592/23303592/t6_23303592.jpg",
+    "category": "文学-外国文学",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
