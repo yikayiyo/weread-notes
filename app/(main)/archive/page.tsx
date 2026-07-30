@@ -1,7 +1,10 @@
-import { getBooks, groupBooksByYearMonth } from "@/lib/data";
+import { getBooks, getHighlights, groupBooksByYearMonth } from "@/lib/data";
 import { isArchiveEmpty } from "@/lib/archive-empty";
 import { FirstRunWelcome } from "@/components/FirstRunWelcome";
-import { ARCHIVE_RECOMMENDATION_TITLE } from "@/lib/recommendations";
+import {
+  ARCHIVE_RECOMMENDATION_HIGHLIGHT_ID,
+  ARCHIVE_RECOMMENDATION_TITLE,
+} from "@/lib/recommendations";
 import { ArchiveExplorer } from "@/components/ArchiveExplorer";
 import { RecommendedBookSection } from "@/components/RecommendedBookSection";
 
@@ -13,10 +16,22 @@ export default function ArchivePage() {
   const books = getBooks();
   const groups = groupBooksByYearMonth(books);
   const recommended = books.find((b) => b.title === ARCHIVE_RECOMMENDATION_TITLE);
+  const recommendedHighlight = recommended
+    ? getHighlights().find(
+        (highlight) =>
+          highlight.id === ARCHIVE_RECOMMENDATION_HIGHLIGHT_ID &&
+          highlight.bookId === recommended.id,
+      )
+    : undefined;
 
   return (
     <div className="page-stack">
-      {recommended && <RecommendedBookSection book={recommended} />}
+      {recommended && (
+        <RecommendedBookSection
+          book={recommended}
+          highlight={recommendedHighlight}
+        />
+      )}
 
       {groups.length === 0 ? (
         isArchiveEmpty() ? (

@@ -89,13 +89,3 @@ function resolveColorStyle(colorStyle?: number): number {
 export function highlightStyle(colorStyle?: number) {
   return highlightByStyle[resolveColorStyle(colorStyle)];
 }
-
-export const readingCardAccents = [
-  "var(--sage)",
-  "var(--accent)",
-  "var(--ochre)",
-] as const;
-
-export function readingCardAccent(index: number): string {
-  return readingCardAccents[index % readingCardAccents.length];
-}

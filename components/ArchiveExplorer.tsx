@@ -116,22 +116,38 @@ function ListItem({ book }: { book: Book }) {
 }
 
 function GridItem({ book }: { book: Book }) {
+  const isReading = book.progress > 0 && book.progress < 100;
+  const isRead = book.progress === 100 || Boolean(book.finishedAt);
+
   return (
-    <li>
+    <li className="archive-grid-item">
       <Link
         href={`/notes?book=${book.id}`}
-        className="group block space-y-2 rounded-[2px] focus-ring"
+        className="group block rounded-[2px] focus-ring"
       >
-        <div className="relative aspect-[2/3] overflow-hidden bg-surface-muted ring-1 ring-sage/10 transition-[outline-color] group-hover:ring-sage/25">
-          <BookCover book={book} sizes="(max-width: 640px) 33vw, 150px" />
+        <div className="archive-grid-cover relative overflow-hidden bg-surface-muted ring-1 ring-sage/10 transition-[outline-color] group-hover:ring-sage/25">
+          <BookCover book={book} sizes="72px" />
         </div>
-        <div className="space-y-0.5">
-          <p className="font-title text-sm leading-snug text-primary line-clamp-2 transition-colors group-hover:text-sage">
+        <div className="archive-grid-meta">
+          <p
+            className={`archive-grid-status ${
+              isReading
+                ? "archive-grid-status-reading"
+                : isRead
+                  ? "archive-grid-status-read"
+                  : "archive-grid-status-shelved"
+            }`}
+          >
+            {isReading ? `在读 ${book.progress}%` : isRead ? "已读" : "藏书"}
+          </p>
+          <p className="archive-grid-title font-title text-primary line-clamp-2 transition-colors group-hover:text-sage">
             {book.title}
           </p>
-          <p className="text-xs text-secondary line-clamp-1">{book.author}</p>
+          <p className="archive-grid-author text-secondary line-clamp-1">{book.author}</p>
           {book.finishedAt && (
-            <p className="text-xs text-sage/80">{formatDate(book.finishedAt)}</p>
+            <p className="archive-grid-date text-secondary/70">
+              {formatDate(book.finishedAt)}
+            </p>
           )}
         </div>
       </Link>

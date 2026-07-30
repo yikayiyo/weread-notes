@@ -1,7 +1,5 @@
 import Link from "next/link";
-import type { CSSProperties } from "react";
 import type { Book } from "@/lib/types";
-import { readingCardAccent } from "@/lib/colors";
 import { BookCoverImage } from "./BookCoverImage";
 import { ScrollReveal } from "./ScrollReveal";
 
@@ -17,13 +15,9 @@ export function CurrentlyReadingCard({
   initialVisible?: boolean;
 }) {
   const showProgress = book.progress > 0;
-  const accent = readingCardAccent(index);
 
   const coverFallback = (
-    <span
-      className="flex h-full items-center justify-center px-2 text-center text-xs"
-      style={{ color: accent }}
-    >
+    <span className="flex h-full items-center justify-center px-2 text-center text-xs text-sage">
       {book.title}
     </span>
   );
@@ -34,20 +28,13 @@ export function CurrentlyReadingCard({
         <Link
           href={`/notes?book=${book.id}`}
           className="group block space-y-3"
-          style={{ "--card-accent": accent } as CSSProperties}
         >
-          <div
-            className="relative aspect-[2/3] overflow-hidden bg-surface-muted shadow-sm"
-            style={{
-              outline: `1px solid color-mix(in srgb, ${accent} 35%, transparent)`,
-              outlineOffset: -1,
-            }}
-          >
+          <div className="currently-reading-cover relative aspect-[2/3] overflow-hidden bg-surface-muted shadow-sm">
             {book.cover ? (
               <BookCoverImage
                 src={book.cover}
                 alt={book.title}
-                sizes="(max-width: 640px) 30vw, 150px"
+                sizes="(max-width: 640px) 30vw, 176px"
                 priority={priority}
                 fallback={coverFallback}
               />
@@ -56,14 +43,14 @@ export function CurrentlyReadingCard({
             )}
           </div>
           <div className="space-y-2">
-            <p className="font-title text-sm leading-snug text-primary line-clamp-2 transition-colors group-hover:text-(--card-accent)">
+            <p className="font-title text-sm leading-snug text-primary line-clamp-2 transition-colors group-hover:text-sage">
               {book.title}
             </p>
             <p className="text-xs text-secondary line-clamp-1">{book.author}</p>
             {showProgress && (
               <div className="space-y-1.5">
                 <div
-                  className="h-0.5 overflow-hidden rounded-full bg-border"
+                  className="h-px overflow-hidden bg-border"
                   role="progressbar"
                   aria-valuenow={book.progress}
                   aria-valuemin={0}
@@ -71,15 +58,14 @@ export function CurrentlyReadingCard({
                   aria-label={`阅读进度 ${book.progress}%`}
                 >
                   <div
-                    className="h-full rounded-full transition-all duration-500 motion-reduce:transition-none"
+                    className="h-full bg-sage/70 transition-all duration-500 motion-reduce:transition-none"
                     style={{
                       width: `${book.progress}%`,
-                      backgroundColor: accent,
                     }}
                   />
                 </div>
-                <p className="text-xs tabular-nums text-(--card-accent)">
-                  {book.progress}%
+                <p className="text-xs text-secondary">
+                  阅读至 <span className="tabular-nums text-sage">{book.progress}%</span>
                 </p>
               </div>
             )}
