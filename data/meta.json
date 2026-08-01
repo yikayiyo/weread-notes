@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-21T14:54:13.184Z",
+  "lastSyncedAt": "2026-08-01T10:01:49.634Z",
   "source": "weread",
   "stats": {
     "shelfBooks": 695,
@@ -7,9 +7,9 @@
     "totalHighlights": 4577,
     "totalNotes": 283,
     "lastRun": {
-      "fetched": 1,
-      "progressOnly": 0,
-      "skipped": 243
+      "fetched": 0,
+      "progressOnly": 4,
+      "skipped": 240
     }
   },
   "fingerprints": {
@@ -1102,7 +1102,7 @@
       "progress": {
         "readingProgress": 100,
         "markedStatus": 4,
-        "shelfReadUpdateTime": 1776432953
+        "shelfReadUpdateTime": 1785559782
       }
     },
     "22261199": {
@@ -1192,7 +1192,7 @@
       },
       "progress": {
         "readingProgress": 100,
-        "markedStatus": 4,
+        "markedStatus": 1,
         "shelfReadUpdateTime": 0
       }
     },
@@ -1205,7 +1205,7 @@
       },
       "progress": {
         "readingProgress": 100,
-        "markedStatus": 4,
+        "markedStatus": 1,
         "shelfReadUpdateTime": 0
       }
     },
@@ -1335,7 +1335,7 @@
       },
       "progress": {
         "readingProgress": 100,
-        "markedStatus": 4,
+        "markedStatus": 1,
         "shelfReadUpdateTime": 1560700036
       }
     },

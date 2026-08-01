@@ -1,12 +1,25 @@
 [
   {
+    "id": "935536",
+    "title": "百年孤独",
+    "author": "[哥]加西亚•马尔克斯",
+    "cover": "https://cdn.weread.qq.com/weread/cover/49/yuewen_935536/t6_yuewen_9355361682243599.jpg",
+    "category": "文学-外国文学",
+    "progress": 100,
+    "lastReadAt": "2026-08-01T04:49:42.000Z",
+    "highlightCount": 131,
+    "noteCount": 2,
+    "startedAt": "2024-07-05T11:17:17.000Z",
+    "finishedAt": "2025-04-03T01:36:48.000Z"
+  },
+  {
     "id": "3300162290",
     "title": "777：杀手大乱斗",
     "author": "[日]伊坂幸太郎",
     "cover": "https://cdn.weread.qq.com/weread/cover/7/cpplatform_krpivwrzraetuzdqgtnba7/t6_cpplatform_krpivwrzraetuzdqgtnba71757321031.jpg",
     "category": "精品小说-悬疑推理",
     "progress": 0,
-    "lastReadAt": "2026-07-20T04:09:45.000Z",
+    "lastReadAt": "2026-07-26T14:02:08.000Z",
     "highlightCount": 0,
     "noteCount": 0
   },
@@ -303,19 +316,6 @@
     "lastReadAt": "2026-04-18T11:42:06.000Z",
     "highlightCount": 0,
     "noteCount": 0
-  },
-  {
-    "id": "935536",
-    "title": "百年孤独",
-    "author": "[哥]加西亚•马尔克斯",
-    "cover": "https://cdn.weread.qq.com/weread/cover/49/yuewen_935536/t6_yuewen_9355361682243599.jpg",
-    "category": "文学-外国文学",
-    "progress": 100,
-    "lastReadAt": "2026-04-17T13:35:53.000Z",
-    "highlightCount": 131,
-    "noteCount": 2,
-    "startedAt": "2024-07-05T11:17:17.000Z",
-    "finishedAt": "2025-04-03T01:36:48.000Z"
   },
   {
     "id": "3300192663",
@@ -3735,7 +3735,7 @@
     "id": "695233",
     "title": "三体全集（全三册）",
     "author": "刘慈欣",
-    "cover": "https://cdn.weread.qq.com/weread/cover/80/yuewen_695233/t6_yuewen_6952331740758482.jpg",
+    "cover": "https://cdn.weread.qq.com/weread/cover/80/yuewen_695233/t6_yuewen_6952331784884457.jpg",
     "category": "精品小说-科幻小说",
     "progress": 37,
     "lastReadAt": "2024-06-04T12:13:53.000Z",
@@ -5258,6 +5258,26 @@
     "noteCount": 0
   },
   {
+    "id": "22661830",
+    "title": "高情商沟通学",
+    "author": "陈建伟",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/830/22661830/t6_22661830.jpg",
+    "progress": 100,
+    "highlightCount": 11,
+    "noteCount": 0,
+    "lastReadAt": "2020-11-29T01:34:55.000Z"
+  },
+  {
+    "id": "22671420",
+    "title": "冷读术：魅力男人的恋爱沟通术",
+    "author": "柳千雪",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/420/22671420/t6_22671420.jpg",
+    "progress": 100,
+    "highlightCount": 24,
+    "noteCount": 0,
+    "lastReadAt": "2020-11-23T02:52:49.000Z"
+  },
+  {
     "id": "25410985",
     "title": "精进：如何成为一个很厉害的人（新版）",
     "author": "采铜",
@@ -6079,7 +6099,7 @@
   },
   {
     "id": "855063",
-    "title": "拉普拉斯的魔女",
+    "title": "拉普拉斯的魔女（东野圭吾作品）",
     "author": "东野圭吾",
     "cover": "https://cdn.weread.qq.com/weread/cover/5/YueWen_855063/t6_YueWen_855063.jpg",
     "category": "精品小说-悬疑推理",
@@ -6623,6 +6643,17 @@
     "noteCount": 2
   },
   {
+    "id": "814286",
+    "title": "爱默生随笔：用心聆听世界",
+    "author": "拉尔夫·华尔多·爱默生",
+    "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_814286/t6_YueWen_814286.jpg",
+    "category": "文学-散文杂著",
+    "progress": 0,
+    "lastReadAt": "2019-07-04T09:44:37.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
     "id": "921792",
     "title": "追寻历史：一个记者和他的20世纪",
     "author": "白修德",
@@ -6660,17 +6691,6 @@
     "title": "奈保尔家书",
     "author": "V.S. 奈保尔",
     "cover": "https://cdn.weread.qq.com/weread/cover/80/YueWen_22370033/t6_YueWen_22370033.jpg",
-    "category": "文学-散文杂著",
-    "progress": 0,
-    "lastReadAt": "2019-07-04T09:44:37.000Z",
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "814286",
-    "title": "爱默生随笔：用心聆听世界",
-    "author": "拉尔夫·华尔多·爱默生",
-    "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_814286/t6_YueWen_814286.jpg",
     "category": "文学-散文杂著",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
@@ -6741,9 +6761,7 @@
     "progress": 100,
     "lastReadAt": "2019-06-16T15:47:16.000Z",
     "highlightCount": 1,
-    "noteCount": 0,
-    "startedAt": "2019-06-16T15:25:35.000Z",
-    "finishedAt": "2019-06-16T15:45:03.000Z"
+    "noteCount": 0
   },
   {
     "id": "855744",
@@ -7487,58 +7505,21 @@
     "noteCount": 0
   },
   {
-    "id": "25462644",
-    "title": "Rust编程之道",
-    "author": "张汉东",
-    "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_25462644/t6_YueWen_25462644.jpg",
-    "category": "计算机-编程设计",
+    "id": "26211939",
+    "title": "数据结构与算法图解",
+    "author": "杰伊·温格罗",
+    "cover": "https://cdn.weread.qq.com/weread/cover/13/YueWen_26211939/t6_YueWen_26211939.jpg",
+    "category": "计算机-数据库",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "914691",
-    "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
-    "author": "老舍",
-    "cover": "https://cdn.weread.qq.com/weread/cover/22/YueWen_914691/t6_YueWen_914691.jpg",
-    "category": "精品小说-社会小说",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_9UC06007nBqn6OD6Ln",
-    "title": "Information architecture for the World Wide Web",
-    "author": "Louis Rosenfeld",
-    "cover": "https://res.weread.qq.com/wrepub/CB_9UC06007nBqn6OD6Ln_parsecover",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_13tERpEOo35e6Q66Pw",
-    "title": "告白",
-    "author": "湊佳苗",
-    "cover": "https://weread-1258476243.file.myqcloud.com/app/assets/bookcover/book_cover_default_imported_03.png",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_1We7eW7d2A6t6Nf6Ln",
-    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
-    "author": "亚当·罗宾逊",
-    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "26211871",
-    "title": "SQL基础教程（第2版）",
-    "author": "[日]MICK",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg",
-    "category": "计算机-编程设计",
+    "id": "26631276",
+    "title": "《经济学人》百词斩（每日一词100期合辑）",
+    "author": "经济学人·商论",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/276/26631276/t6_26631276.jpg",
+    "category": "教育学习-外语",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7554,21 +7535,59 @@
     "noteCount": 0
   },
   {
-    "id": "29348658",
-    "title": "史记的读法：司马迁的历史世界",
-    "author": "杨照",
-    "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_29348658/t6_YueWen_29348658.jpg",
-    "category": "历史-历史读物",
+    "id": "25462650",
+    "title": "程序员代码面试指南：IT名企算法与数据结构题目最优解（第2版）",
+    "author": "左程云",
+    "cover": "https://cdn.weread.qq.com/weread/cover/16/YueWen_25462650/t6_YueWen_25462650.jpg",
+    "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "26631276",
-    "title": "《经济学人》百词斩（每日一词100期合辑）",
-    "author": "经济学人·商论",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/276/26631276/t6_26631276.jpg",
-    "category": "教育学习-外语",
+    "id": "26211871",
+    "title": "SQL基础教程（第2版）",
+    "author": "[日]MICK",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg",
+    "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "25462644",
+    "title": "Rust编程之道",
+    "author": "张汉东",
+    "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_25462644/t6_YueWen_25462644.jpg",
+    "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "CB_13tERpEOo35e6Q66Pw",
+    "title": "告白",
+    "author": "湊佳苗",
+    "cover": "https://weread-1258476243.file.myqcloud.com/app/assets/bookcover/book_cover_default_imported_03.png",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "914691",
+    "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
+    "author": "老舍",
+    "cover": "https://cdn.weread.qq.com/weread/cover/22/YueWen_914691/t6_YueWen_914691.jpg",
+    "category": "精品小说-社会小说",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "CB_1We7eW7d2A6t6Nf6Ln",
+    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
+    "author": "亚当·罗宾逊",
+    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7614,21 +7633,10 @@
     "noteCount": 0
   },
   {
-    "id": "26211939",
-    "title": "数据结构与算法图解",
-    "author": "杰伊·温格罗",
-    "cover": "https://cdn.weread.qq.com/weread/cover/13/YueWen_26211939/t6_YueWen_26211939.jpg",
-    "category": "计算机-数据库",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "25462650",
-    "title": "程序员代码面试指南：IT名企算法与数据结构题目最优解（第2版）",
-    "author": "左程云",
-    "cover": "https://cdn.weread.qq.com/weread/cover/16/YueWen_25462650/t6_YueWen_25462650.jpg",
-    "category": "计算机-编程设计",
+    "id": "CB_9UC06007nBqn6OD6Ln",
+    "title": "Information architecture for the World Wide Web",
+    "author": "Louis Rosenfeld",
+    "cover": "https://res.weread.qq.com/wrepub/CB_9UC06007nBqn6OD6Ln_parsecover",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7639,6 +7647,16 @@
     "author": "柴树杉 曹春晖",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/235/30179235/t6_30179235.jpg",
     "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "29348658",
+    "title": "史记的读法：司马迁的历史世界",
+    "author": "杨照",
+    "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_29348658/t6_YueWen_29348658.jpg",
+    "category": "历史-历史读物",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -8018,24 +8036,6 @@
     "cover": "https://res.weread.qq.com/wrepub/CB_E3t0LJ0ONFYr6N36Ln_parsecover",
     "progress": 10,
     "highlightCount": 1,
-    "noteCount": 0
-  },
-  {
-    "id": "22671420",
-    "title": "冷读术：魅力男人的恋爱沟通术",
-    "author": "柳千雪",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/420/22671420/t6_22671420.jpg",
-    "progress": 100,
-    "highlightCount": 24,
-    "noteCount": 0
-  },
-  {
-    "id": "22661830",
-    "title": "高情商沟通学",
-    "author": "陈建伟",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/830/22661830/t6_22661830.jpg",
-    "progress": 100,
-    "highlightCount": 11,
     "noteCount": 0
   },
   {
