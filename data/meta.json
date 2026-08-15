@@ -1,15 +1,15 @@
 {
-  "lastSyncedAt": "2026-08-01T10:01:49.634Z",
+  "lastSyncedAt": "2026-08-15T06:31:13.509Z",
   "source": "weread",
   "stats": {
-    "shelfBooks": 695,
-    "notebookBooks": 244,
-    "totalHighlights": 4577,
+    "shelfBooks": 698,
+    "notebookBooks": 245,
+    "totalHighlights": 4581,
     "totalNotes": 283,
     "lastRun": {
-      "fetched": 0,
-      "progressOnly": 4,
-      "skipped": 240
+      "fetched": 2,
+      "progressOnly": 1,
+      "skipped": 242
     }
   },
   "fingerprints": {
@@ -1094,15 +1094,15 @@
     },
     "935536": {
       "content": {
-        "noteCount": 131,
+        "noteCount": 134,
         "reviewCount": 2,
-        "bookmarkCount": 6,
-        "sort": 1764374640
+        "bookmarkCount": 9,
+        "sort": 1786202507
       },
       "progress": {
         "readingProgress": 100,
         "markedStatus": 4,
-        "shelfReadUpdateTime": 1785559782
+        "shelfReadUpdateTime": 1786274445
       }
     },
     "22261199": {
@@ -2561,6 +2561,19 @@
         "shelfReadUpdateTime": 1753581597
       }
     },
+    "3300117257": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1786292087
+      },
+      "progress": {
+        "readingProgress": 22,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1786721687
+      }
+    },
     "3300117751": {
       "content": {
         "noteCount": 25,
@@ -2610,7 +2623,7 @@
       "progress": {
         "readingProgress": 9,
         "markedStatus": 2,
-        "shelfReadUpdateTime": 1783351490
+        "shelfReadUpdateTime": 1785907191
       }
     },
     "3300143875": {
