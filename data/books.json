@@ -1,16 +1,151 @@
 [
   {
+    "id": "40504312",
+    "title": "略萨作品：酒吧长谈（精装珍藏版）",
+    "author": "马里奥·巴尔加斯·略萨",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/312/40504312/t6_40504312.jpg",
+    "category": "精品小说-社会小说",
+    "progress": 5,
+    "lastReadAt": "2026-09-01T18:02:01.000Z",
+    "highlightCount": 3,
+    "noteCount": 0,
+    "startedAt": "2026-08-24T04:48:07.000Z"
+  },
+  {
+    "id": "CB_5ty0F00G1DM475w75O4hrA1B",
+    "title": "pi-agent-sourcebook",
+    "author": "Codex",
+    "cover": "https://res.weread.qq.com/wrepub/CB_5ty0F00G1DM475w75O4hrA1B_parsecover",
+    "progress": 0,
+    "lastReadAt": "2026-08-26T14:12:12.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300177660",
+    "title": "专注的真相",
+    "author": "李笑来",
+    "cover": "https://cdn.weread.qq.com/weread/cover/4/cpplatform_v6rotsdw578bplfggz32pk/t6_cpplatform_v6rotsdw578bplfggz32pk1763434329.jpg",
+    "category": "个人成长-励志成长",
+    "progress": 98,
+    "lastReadAt": "2026-08-26T09:20:08.000Z",
+    "highlightCount": 18,
+    "noteCount": 1,
+    "startedAt": "2026-08-18T14:40:41.000Z"
+  },
+  {
+    "id": "3300204927",
+    "title": "活出生命的意义",
+    "author": "[奥]阿尔弗雷德·阿德勒",
+    "cover": "https://cdn.weread.qq.com/weread/cover/35/cpplatform_gw8jpyeab7j8xyhmh3yqsh/t6_cpplatform_gw8jpyeab7j8xyhmh3yqsh1778557294.jpg",
+    "category": "个人成长-人生哲学",
+    "progress": 0,
+    "lastReadAt": "2026-08-26T02:42:59.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300223020",
+    "title": "AI提效：人人都要用的WorkBuddy（微信读书特别版）",
+    "author": "秋叶",
+    "cover": "https://cdn.weread.qq.com/weread/cover/43/cpplatform_mqyqy6a4yq2csuesyknnbk/t6_cpplatform_mqyqy6a4yq2csuesyknnbk1785910342.jpg",
+    "category": "计算机-人工智能",
+    "progress": 0,
+    "lastReadAt": "2026-08-23T15:47:00.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "25793956",
+    "title": "零基础学好英语语法",
+    "author": "邱律苍",
+    "cover": "https://cdn.weread.qq.com/weread/cover/72/YueWen_25793956/t6_YueWen_25793956.jpg",
+    "category": "教育学习-外语",
+    "progress": 0,
+    "lastReadAt": "2026-08-15T15:46:33.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300117257",
+    "title": "不上班咖啡馆",
+    "author": "古典",
+    "cover": "https://cdn.weread.qq.com/weread/cover/55/cpplatform_xr7f536nuqylpq8o6ytfev/t6_cpplatform_xr7f536nuqylpq8o6ytfev1728635929.jpg",
+    "category": "个人成长-人在职场",
+    "progress": 22,
+    "lastReadAt": "2026-08-14T15:34:47.000Z",
+    "highlightCount": 1,
+    "noteCount": 0,
+    "startedAt": "2024-12-31T13:43:11.000Z"
+  },
+  {
+    "id": "3300175060",
+    "title": "黄色墙纸：吉尔曼女性小说选（果麦经典）",
+    "author": "[美]夏洛特·珀金斯·吉尔曼",
+    "cover": "https://cdn.weread.qq.com/weread/cover/50/cpplatform_mymsdj3evwu1qecxntvwdx/t6_cpplatform_mymsdj3evwu1qecxntvwdx1762332068.jpg",
+    "category": "精品小说-女性小说",
+    "progress": 0,
+    "lastReadAt": "2026-08-14T10:51:15.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300218140",
+    "title": "奥德赛（张秋子导读版）（全四册）",
+    "author": "[古希腊]荷马",
+    "cover": "https://cdn.weread.qq.com/weread/cover/12/cpplatform_oxrsdczy3nh1b4yg58zxmm/t6_cpplatform_oxrsdczy3nh1b4yg58zxmm1783678724.jpg",
+    "category": "文学-外国文学",
+    "progress": 0,
+    "lastReadAt": "2026-08-13T14:50:02.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "25912993",
+    "title": "荷马史诗《伊利亚特》（罗念生全集·第六卷）",
+    "author": "[古希腊]荷马",
+    "cover": "https://cdn.weread.qq.com/weread/cover/4/YueWen_25912993/t6_YueWen_25912993.jpg",
+    "category": "文学-经典作品",
+    "progress": 0,
+    "lastReadAt": "2026-08-09T11:21:00.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
     "id": "935536",
     "title": "百年孤独",
     "author": "[哥]加西亚•马尔克斯",
     "cover": "https://cdn.weread.qq.com/weread/cover/49/yuewen_935536/t6_yuewen_9355361682243599.jpg",
     "category": "文学-外国文学",
     "progress": 100,
-    "lastReadAt": "2026-08-01T04:49:42.000Z",
-    "highlightCount": 131,
+    "lastReadAt": "2026-08-09T11:20:45.000Z",
+    "highlightCount": 134,
     "noteCount": 2,
     "startedAt": "2024-07-05T11:17:17.000Z",
     "finishedAt": "2025-04-03T01:36:48.000Z"
+  },
+  {
+    "id": "3300054149",
+    "title": "相信",
+    "author": "蔡磊",
+    "cover": "https://cdn.weread.qq.com/weread/cover/71/cpplatform_iheluiy1p49t13lmk5k4mb/t6_cpplatform_iheluiy1p49t13lmk5k4mb1680152716.jpg",
+    "category": "个人成长-励志成长",
+    "progress": 0,
+    "lastReadAt": "2026-08-08T18:50:07.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300131225",
+    "title": "油炸绿番茄",
+    "author": "[美]范妮·弗拉格",
+    "cover": "https://cdn.weread.qq.com/weread/cover/71/cpplatform_evcxns13ybbuzqqigsvpoy/t6_cpplatform_evcxns13ybbuzqqigsvpoy1743662617.jpg",
+    "category": "精品小说-治愈小说",
+    "progress": 9,
+    "lastReadAt": "2026-08-05T05:19:51.000Z",
+    "highlightCount": 1,
+    "noteCount": 6,
+    "startedAt": "2025-04-05T01:21:35.000Z"
   },
   {
     "id": "3300162290",
@@ -33,17 +168,6 @@
     "noteCount": 0,
     "startedAt": "2026-07-16T15:49:30.000Z",
     "lastReadAt": "2026-07-17T11:41:38.000Z"
-  },
-  {
-    "id": "3300175060",
-    "title": "黄色墙纸：吉尔曼女性小说选（果麦经典）",
-    "author": "[美]夏洛特·珀金斯·吉尔曼",
-    "cover": "https://cdn.weread.qq.com/weread/cover/50/cpplatform_mymsdj3evwu1qecxntvwdx/t6_cpplatform_mymsdj3evwu1qecxntvwdx1762332068.jpg",
-    "category": "精品小说-女性小说",
-    "progress": 0,
-    "lastReadAt": "2026-07-16T01:10:41.000Z",
-    "highlightCount": 0,
-    "noteCount": 0
   },
   {
     "id": "26441414",
@@ -78,18 +202,6 @@
     "lastReadAt": "2026-07-10T18:15:11.000Z",
     "highlightCount": 0,
     "noteCount": 0
-  },
-  {
-    "id": "3300131225",
-    "title": "油炸绿番茄",
-    "author": "[美]范妮·弗拉格",
-    "cover": "https://cdn.weread.qq.com/weread/cover/71/cpplatform_evcxns13ybbuzqqigsvpoy/t6_cpplatform_evcxns13ybbuzqqigsvpoy1743662617.jpg",
-    "category": "精品小说-治愈小说",
-    "progress": 9,
-    "lastReadAt": "2026-07-06T15:24:50.000Z",
-    "highlightCount": 1,
-    "noteCount": 6,
-    "startedAt": "2025-04-05T01:21:35.000Z"
   },
   {
     "id": "23869154",
@@ -2684,17 +2796,6 @@
     "noteCount": 0
   },
   {
-    "id": "3300117257",
-    "title": "不上班咖啡馆",
-    "author": "古典",
-    "cover": "https://cdn.weread.qq.com/weread/cover/55/cpplatform_xr7f536nuqylpq8o6ytfev/t6_cpplatform_xr7f536nuqylpq8o6ytfev1728635929.jpg",
-    "category": "个人成长-人在职场",
-    "progress": 0,
-    "lastReadAt": "2024-12-31T13:43:11.000Z",
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
     "id": "3300117751",
     "title": "小城与不确定性的墙（村上春树时隔6年最新长篇）",
     "author": "[日]村上春树",
@@ -3635,7 +3736,7 @@
   },
   {
     "id": "41147996",
-    "title": "福格行为模型",
+    "title": "福格行为模型：你会越来越有能量",
     "author": "B.J.福格",
     "cover": "https://cdn.weread.qq.com/weread/cover/39/YueWen_41147996/t6_YueWen_41147996.jpg",
     "category": "心理-心理学研究",
@@ -3799,7 +3900,7 @@
   },
   {
     "id": "3300020163",
-    "title": "我的阿勒泰（马伊琍、周依然、于适主演同名电视剧原著）",
+    "title": "我的阿勒泰（中国版权金奖、“我的阿勒泰”同名电视剧）",
     "author": "李娟",
     "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_fy7wyg2acrhxq1vu4yvs9y/t6_cpplatform_fy7wyg2acrhxq1vu4yvs9y1714307419.jpg",
     "category": "精品小说-影视原著",
@@ -6654,22 +6755,22 @@
     "noteCount": 0
   },
   {
-    "id": "921792",
-    "title": "追寻历史：一个记者和他的20世纪",
-    "author": "白修德",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/792/921792/t6_921792.jpg",
-    "category": "历史-世界史",
+    "id": "921751",
+    "title": "昨日的世界：一个欧洲人的回忆",
+    "author": "茨威格",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/751/921751/t6_921751.jpg",
+    "category": "精品小说-纪实小说",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "931782",
-    "title": "安静的美国人",
-    "author": "格雷厄姆·格林",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/782/931782/t6_931782.jpg",
-    "category": "精品小说-社会小说",
+    "id": "921792",
+    "title": "追寻历史：一个记者和他的20世纪",
+    "author": "白修德",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/792/921792/t6_921792.jpg",
+    "category": "历史-世界史",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
@@ -6698,11 +6799,11 @@
     "noteCount": 0
   },
   {
-    "id": "921751",
-    "title": "昨日的世界：一个欧洲人的回忆",
-    "author": "茨威格",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/751/921751/t6_921751.jpg",
-    "category": "精品小说-纪实小说",
+    "id": "931782",
+    "title": "安静的美国人",
+    "author": "格雷厄姆·格林",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/782/931782/t6_931782.jpg",
+    "category": "精品小说-社会小说",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
@@ -7119,9 +7220,9 @@
   },
   {
     "id": "847050",
-    "title": "心理罪（全集｜同名影视原著）",
+    "title": "心理罪（《人鱼》作者雷米作品｜全6册 ）",
     "author": "雷米",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/50/847050/t6_847050.jpg",
+    "cover": "https://cdn.weread.qq.com/weread/cover/68/yuewen_847050/t6_yuewen_8470501786344900.jpg",
     "category": "精品小说-悬疑推理",
     "progress": 0,
     "lastReadAt": "2018-06-07T09:53:49.000Z",
@@ -7505,11 +7606,21 @@
     "noteCount": 0
   },
   {
-    "id": "26211939",
-    "title": "数据结构与算法图解",
-    "author": "杰伊·温格罗",
-    "cover": "https://cdn.weread.qq.com/weread/cover/13/YueWen_26211939/t6_YueWen_26211939.jpg",
-    "category": "计算机-数据库",
+    "id": "29348658",
+    "title": "史记的读法：司马迁的历史世界",
+    "author": "杨照",
+    "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_29348658/t6_YueWen_29348658.jpg",
+    "category": "历史-历史读物",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "30179235",
+    "title": "Go语言高级编程",
+    "author": "柴树杉 曹春晖",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/235/30179235/t6_30179235.jpg",
+    "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7525,20 +7636,20 @@
     "noteCount": 0
   },
   {
-    "id": "26687224",
-    "title": "UI设计与认知心理学（全彩）",
-    "author": "郑昊",
-    "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_26687224/t6_YueWen_26687224.jpg",
-    "category": "心理-心理学研究",
+    "id": "26211939",
+    "title": "数据结构与算法图解",
+    "author": "杰伊·温格罗",
+    "cover": "https://cdn.weread.qq.com/weread/cover/13/YueWen_26211939/t6_YueWen_26211939.jpg",
+    "category": "计算机-数据库",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "25462650",
-    "title": "程序员代码面试指南：IT名企算法与数据结构题目最优解（第2版）",
-    "author": "左程云",
-    "cover": "https://cdn.weread.qq.com/weread/cover/16/YueWen_25462650/t6_YueWen_25462650.jpg",
+    "id": "25462644",
+    "title": "Rust编程之道",
+    "author": "张汉东",
+    "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_25462644/t6_YueWen_25462644.jpg",
     "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
@@ -7555,25 +7666,6 @@
     "noteCount": 0
   },
   {
-    "id": "25462644",
-    "title": "Rust编程之道",
-    "author": "张汉东",
-    "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_25462644/t6_YueWen_25462644.jpg",
-    "category": "计算机-编程设计",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_13tERpEOo35e6Q66Pw",
-    "title": "告白",
-    "author": "湊佳苗",
-    "cover": "https://weread-1258476243.file.myqcloud.com/app/assets/bookcover/book_cover_default_imported_03.png",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
     "id": "914691",
     "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
     "author": "老舍",
@@ -7584,20 +7676,20 @@
     "noteCount": 0
   },
   {
-    "id": "CB_1We7eW7d2A6t6Nf6Ln",
-    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
-    "author": "亚当·罗宾逊",
-    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
+    "id": "25462650",
+    "title": "程序员代码面试指南：IT名企算法与数据结构题目最优解（第2版）",
+    "author": "左程云",
+    "cover": "https://cdn.weread.qq.com/weread/cover/16/YueWen_25462650/t6_YueWen_25462650.jpg",
+    "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "687994",
-    "title": "编程之美",
-    "author": "《编程之美》小组",
-    "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_687994/t6_YueWen_687994.jpg",
-    "category": "计算机-编程设计",
+    "id": "CB_1We7eW7d2A6t6Nf6Ln",
+    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
+    "author": "亚当·罗宾逊",
+    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7613,11 +7705,10 @@
     "noteCount": 0
   },
   {
-    "id": "22651317",
-    "title": "深度学习",
-    "author": "伊恩·古德费洛 约书亚·本吉奥",
-    "cover": "https://cdn.weread.qq.com/weread/cover/15/YueWen_22651317/t6_YueWen_22651317.jpg",
-    "category": "计算机-人工智能",
+    "id": "CB_13tERpEOo35e6Q66Pw",
+    "title": "告白",
+    "author": "湊佳苗",
+    "cover": "https://weread-1258476243.file.myqcloud.com/app/assets/bookcover/book_cover_default_imported_03.png",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7633,6 +7724,16 @@
     "noteCount": 0
   },
   {
+    "id": "22651317",
+    "title": "深度学习",
+    "author": "伊恩·古德费洛 约书亚·本吉奥",
+    "cover": "https://cdn.weread.qq.com/weread/cover/15/YueWen_22651317/t6_YueWen_22651317.jpg",
+    "category": "计算机-人工智能",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
     "id": "CB_9UC06007nBqn6OD6Ln",
     "title": "Information architecture for the World Wide Web",
     "author": "Louis Rosenfeld",
@@ -7642,21 +7743,21 @@
     "noteCount": 0
   },
   {
-    "id": "30179235",
-    "title": "Go语言高级编程",
-    "author": "柴树杉 曹春晖",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/235/30179235/t6_30179235.jpg",
+    "id": "687994",
+    "title": "编程之美",
+    "author": "《编程之美》小组",
+    "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_687994/t6_YueWen_687994.jpg",
     "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "29348658",
-    "title": "史记的读法：司马迁的历史世界",
-    "author": "杨照",
-    "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_29348658/t6_YueWen_29348658.jpg",
-    "category": "历史-历史读物",
+    "id": "26687224",
+    "title": "UI设计与认知心理学（全彩）",
+    "author": "郑昊",
+    "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_26687224/t6_YueWen_26687224.jpg",
+    "category": "心理-心理学研究",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0

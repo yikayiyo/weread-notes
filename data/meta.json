@@ -1,15 +1,15 @@
 {
-  "lastSyncedAt": "2026-08-01T10:01:49.634Z",
+  "lastSyncedAt": "2026-09-02T14:14:20.792Z",
   "source": "weread",
   "stats": {
-    "shelfBooks": 695,
-    "notebookBooks": 244,
-    "totalHighlights": 4577,
-    "totalNotes": 283,
+    "shelfBooks": 704,
+    "notebookBooks": 247,
+    "totalHighlights": 4602,
+    "totalNotes": 284,
     "lastRun": {
-      "fetched": 0,
+      "fetched": 6,
       "progressOnly": 4,
-      "skipped": 240
+      "skipped": 237
     }
   },
   "fingerprints": {
@@ -1094,15 +1094,15 @@
     },
     "935536": {
       "content": {
-        "noteCount": 131,
+        "noteCount": 134,
         "reviewCount": 2,
-        "bookmarkCount": 6,
-        "sort": 1764374640
+        "bookmarkCount": 9,
+        "sort": 1786202507
       },
       "progress": {
         "readingProgress": 100,
         "markedStatus": 4,
-        "shelfReadUpdateTime": 1785559782
+        "shelfReadUpdateTime": 1786274445
       }
     },
     "22261199": {
@@ -2158,6 +2158,19 @@
         "shelfReadUpdateTime": 1626143430
       }
     },
+    "40504312": {
+      "content": {
+        "noteCount": 3,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1788104090
+      },
+      "progress": {
+        "readingProgress": 5,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1788285721
+      }
+    },
     "40726710": {
       "content": {
         "noteCount": 35,
@@ -2561,6 +2574,19 @@
         "shelfReadUpdateTime": 1753581597
       }
     },
+    "3300117257": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1786292087
+      },
+      "progress": {
+        "readingProgress": 22,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1786721687
+      }
+    },
     "3300117751": {
       "content": {
         "noteCount": 25,
@@ -2610,7 +2636,7 @@
       "progress": {
         "readingProgress": 9,
         "markedStatus": 2,
-        "shelfReadUpdateTime": 1783351490
+        "shelfReadUpdateTime": 1785907191
       }
     },
     "3300143875": {
@@ -2650,6 +2676,19 @@
         "readingProgress": 62,
         "markedStatus": 2,
         "shelfReadUpdateTime": 0
+      }
+    },
+    "3300177660": {
+      "content": {
+        "noteCount": 18,
+        "reviewCount": 1,
+        "bookmarkCount": 1,
+        "sort": 1787734414
+      },
+      "progress": {
+        "readingProgress": 98,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1787736008
       }
     },
     "3300193093": {
