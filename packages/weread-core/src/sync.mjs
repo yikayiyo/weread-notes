@@ -69,7 +69,7 @@ function fingerprintsMatch(a, b) { return JSON.stringify(a) === JSON.stringify(b
 function applyProgress(book, p) {
   book.progress = readingProgress(p.progress, "progress.progress");
   book.startedAt = toIso(p.startReadingTime, "progress.startReadingTime");
-  book.finishedAt = p.progress === 100 ? toIso(p.finishTime, "progress.finishTime") : undefined;
+  book.finishedAt = toIso(p.finishTime, "progress.finishTime");
   book.lastReadAt = toIso(p.updateTime, "progress.updateTime") ?? book.lastReadAt;
 }
 function deriveReadingStats(books, highlights) {

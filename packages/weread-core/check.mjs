@@ -27,7 +27,7 @@ const notebookRows = [
     bookmarkCount: 1, sort: 50, readingProgress: 50, markedStatus: 0 },
 ];
 const progressById = {
-  a: { progress: 1, updateTime: time, finishTime: time },
+  a: { progress: 1, updateTime: time },
   b: { progress: 100, updateTime: time, finishTime: unix("2024-10-02T12:00:00Z") },
   c: { progress: 100, updateTime: time, finishTime: unix("2024-10-02T12:00:00Z") },
 };
@@ -106,6 +106,16 @@ assert.equal(snapshot.cache.version, 2);
 assert.equal(progressEvents.at(-1).completed, 2);
 assert.equal(progressEvents.at(-1).total, 2);
 assert(!JSON.stringify(snapshot).includes(apiKey));
+
+const historicalCompletion = await syncArchive({ apiKey, request: gateway((p) => {
+  if (p.api_name === "/book/getprogress" && p.bookId === "a") {
+    return { book: { ...progressById.a, progress: 99, finishTime: time } };
+  }
+}).request });
+assert.equal(historicalCompletion.books.find((b) => b.id === "a").finishedAt, new Date(time * 1000).toISOString(), "Keep the API completion date even when current progress is below 100%");
+assert.equal(historicalCompletion.readingStats.find((row) => row.year === 2025).booksRead, 1);
+const cachedCompletion = await syncArchive({ apiKey, previous: historicalCompletion, request: gateway().request });
+assert.equal(cachedCompletion.books.find((b) => b.id === "a").finishedAt, historicalCompletion.books.find((b) => b.id === "a").finishedAt, "Cached progress must preserve the same historical completion date");
 
 const legacyFields = await syncArchive({apiKey,request:gateway((p)=> {
   if(p.api_name==='/book/bookmarklist') return {updated:[{bookmarkId:'undated',bookId:p.bookId,markText:'仍需保留的旧划线'}]};

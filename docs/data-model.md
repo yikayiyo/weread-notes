@@ -39,7 +39,7 @@
 | `category` | `category` 或 `categories[0].title` | |
 | `progress` | `getprogress.book.progress` | 0–100 整数，100=读完 |
 | `startedAt` | `getprogress.book.startReadingTime` | Unix → ISO |
-| `finishedAt` | `getprogress.book.finishTime` | 仅 progress=100 时有值 |
+| `finishedAt` | `getprogress.book.finishTime` | 保留接口返回的完成时间；部分记录在当前进度低于 100% 时仍有历史完成日期，不根据当前进度清空 |
 | `lastReadAt` | `getprogress.book.updateTime` | 最近阅读 |
 | `highlightCount` | `notebooks.noteCount` | 划线条数 |
 | `noteCount` | `notebooks.reviewCount` | 想法/点评条数 |

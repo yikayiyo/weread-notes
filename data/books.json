@@ -1,12 +1,25 @@
 [
   {
+    "id": "812443",
+    "title": "白鹿原",
+    "author": "陈忠实",
+    "cover": "https://cdn.weread.qq.com/weread/cover/78/YueWen_812443/t6_YueWen_812443.jpg",
+    "category": "精品小说-年代小说",
+    "progress": 100,
+    "lastReadAt": "2026-09-06T13:44:25.000Z",
+    "highlightCount": 1,
+    "noteCount": 1,
+    "startedAt": "2016-04-29T16:04:37.000Z",
+    "finishedAt": "2016-05-08T06:37:10.000Z"
+  },
+  {
     "id": "40504312",
     "title": "略萨作品：酒吧长谈（精装珍藏版）",
     "author": "马里奥·巴尔加斯·略萨",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/312/40504312/t6_40504312.jpg",
     "category": "精品小说-社会小说",
-    "progress": 5,
-    "lastReadAt": "2026-09-01T18:02:01.000Z",
+    "progress": 7,
+    "lastReadAt": "2026-09-06T03:59:15.000Z",
     "highlightCount": 3,
     "noteCount": 0,
     "startedAt": "2026-08-24T04:48:07.000Z"
@@ -17,7 +30,7 @@
     "author": "Codex",
     "cover": "https://res.weread.qq.com/wrepub/CB_5ty0F00G1DM475w75O4hrA1B_parsecover",
     "progress": 0,
-    "lastReadAt": "2026-08-26T14:12:12.000Z",
+    "lastReadAt": "2026-09-04T01:52:44.000Z",
     "highlightCount": 0,
     "noteCount": 0
   },
@@ -28,7 +41,7 @@
     "cover": "https://cdn.weread.qq.com/weread/cover/4/cpplatform_v6rotsdw578bplfggz32pk/t6_cpplatform_v6rotsdw578bplfggz32pk1763434329.jpg",
     "category": "个人成长-励志成长",
     "progress": 98,
-    "lastReadAt": "2026-08-26T09:20:08.000Z",
+    "lastReadAt": "2026-09-03T06:11:49.000Z",
     "highlightCount": 18,
     "noteCount": 1,
     "startedAt": "2026-08-18T14:40:41.000Z"
@@ -160,10 +173,10 @@
   },
   {
     "id": "3300071773",
+    "progress": 3,
     "title": "每一句话语都坐着别的眼睛",
     "author": "赫塔·米勒",
     "cover": "https://cdn.weread.qq.com/weread/cover/21/cpplatform_c5gpqznmyckhowbv3hb9uq/t6_cpplatform_c5gpqznmyckhowbv3hb9uq1695370816.jpg",
-    "progress": 3,
     "highlightCount": 1,
     "noteCount": 0,
     "startedAt": "2026-07-16T15:49:30.000Z",
@@ -278,7 +291,7 @@
     "cover": "https://cdn.weread.qq.com/weread/cover/22/yuewen_34631845/t6_yuewen_346318451676961764.jpg",
     "category": "文学-古典文学",
     "progress": 36,
-    "lastReadAt": "2026-05-21T01:10:59.000Z",
+    "lastReadAt": "2026-05-21T01:11:09.000Z",
     "highlightCount": 1,
     "noteCount": 2,
     "startedAt": "2023-08-22T17:09:37.000Z"
@@ -2582,10 +2595,10 @@
   },
   {
     "id": "3300118196",
+    "progress": 0,
     "title": "我越来越喜欢自己了",
     "author": "燕七",
     "cover": "https://cdn.weread.qq.com/weread/cover/73/cpplatform_7navfq7gtpg7xfvghywahi/t6_cpplatform_7navfq7gtpg7xfvghywahi1729245397.jpg",
-    "progress": 0,
     "highlightCount": 0,
     "noteCount": 0,
     "startedAt": "2025-02-04T14:49:22.000Z",
@@ -4628,10 +4641,10 @@
   },
   {
     "id": "37423575",
+    "progress": 26,
     "title": "电影感人像摄影教程",
     "author": "岑宝蓝",
     "cover": "https://cdn.weread.qq.com/weread/cover/10/YueWen_37423575/t6_YueWen_37423575.jpg",
-    "progress": 26,
     "highlightCount": 0,
     "noteCount": 0,
     "startedAt": "2022-07-29T10:22:51.000Z",
@@ -5360,20 +5373,20 @@
   },
   {
     "id": "22661830",
+    "progress": 100,
     "title": "高情商沟通学",
     "author": "陈建伟",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/830/22661830/t6_22661830.jpg",
-    "progress": 100,
     "highlightCount": 11,
     "noteCount": 0,
     "lastReadAt": "2020-11-29T01:34:55.000Z"
   },
   {
     "id": "22671420",
+    "progress": 100,
     "title": "冷读术：魅力男人的恋爱沟通术",
     "author": "柳千雪",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/420/22671420/t6_22671420.jpg",
-    "progress": 100,
     "highlightCount": 24,
     "noteCount": 0,
     "lastReadAt": "2020-11-23T02:52:49.000Z"
@@ -7482,10 +7495,10 @@
   },
   {
     "id": "814439",
+    "progress": 4,
     "title": "八十天环游地球",
     "author": "[法]儒勒·凡尔纳",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/439/814439/t6_814439.jpg",
-    "progress": 4,
     "highlightCount": 0,
     "noteCount": 0,
     "startedAt": "2016-06-03T05:12:48.000Z",
@@ -7503,19 +7516,6 @@
     "noteCount": 2,
     "startedAt": "2016-04-04T11:48:07.000Z",
     "finishedAt": "2016-04-07T13:49:18.000Z"
-  },
-  {
-    "id": "812443",
-    "title": "白鹿原",
-    "author": "陈忠实",
-    "cover": "https://cdn.weread.qq.com/weread/cover/78/YueWen_812443/t6_YueWen_812443.jpg",
-    "category": "精品小说-年代小说",
-    "progress": 100,
-    "lastReadAt": "2016-05-31T11:57:47.000Z",
-    "highlightCount": 1,
-    "noteCount": 1,
-    "startedAt": "2016-04-29T16:04:37.000Z",
-    "finishedAt": "2016-05-08T06:37:10.000Z"
   },
   {
     "id": "792272",
@@ -7943,316 +7943,316 @@
   },
   {
     "id": "3300200730",
+    "progress": 85,
     "title": "Agent Skills橙皮书：给AI装技能的完全指南",
     "author": "花叔",
     "cover": "https://cdn.weread.qq.com/weread/cover/47/cpplatform_4hc1lxzsszn79qcdhtvedq/t6_cpplatform_4hc1lxzsszn79qcdhtvedq1775701710.jpg",
-    "progress": 85,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "3300199881",
+    "progress": 100,
     "title": "Claude Code橙皮书：从入门到精通（微信读书特别版）",
     "author": "花叔",
     "cover": "https://cdn.weread.qq.com/weread/cover/19/cpplatform_uxgat2cacw5ne8darcgwa2/t6_cpplatform_uxgat2cacw5ne8darcgwa21775208984.jpg",
-    "progress": 100,
     "highlightCount": 11,
     "noteCount": 3
   },
   {
     "id": "31131759",
+    "progress": 100,
     "title": "剑来（1-54 完结精校版）",
     "author": "烽火戏诸侯",
     "cover": "https://cdn.weread.qq.com/weread/cover/98/yuewen_31131759/t6_yuewen_311317591763918193.jpg",
-    "progress": 100,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "3300176696",
+    "progress": 62,
     "title": "财经（2025年第23期）",
     "author": "财经",
     "cover": "https://cdn.weread.qq.com/weread/cover/22/cpplatform_i3qpbhzyr6p7tpjjdzwxpc/t6_cpplatform_i3qpbhzyr6p7tpjjdzwxpc1762826922.jpg",
-    "progress": 62,
     "highlightCount": 4,
     "noteCount": 0
   },
   {
     "id": "22261199",
+    "progress": 100,
     "title": "剑来",
     "author": "烽火戏诸侯",
     "cover": "https://cdn.weread.qq.com/weread/cover/16/YueWen_22261199/t6_YueWen_22261199.jpg",
-    "progress": 100,
     "highlightCount": 45,
     "noteCount": 0
   },
   {
     "id": "25795121",
+    "progress": 10,
     "title": "商务职场英语口语900句",
     "author": "金利",
     "cover": "https://cdn.weread.qq.com/weread/cover/68/YueWen_25795121/t6_YueWen_25795121.jpg",
-    "progress": 10,
     "highlightCount": 43,
     "noteCount": 0
   },
   {
     "id": "CB_1We2SS2Rq7s26ny6oo4qn7zt",
+    "progress": 5,
     "title": "焦虑的人（九个焦虑的人，一场人质劫持，能解救他们的不是警察，而是彼此。巴克曼再次带来拿手的暖心治愈故事。入选美国亚马逊Best literature and fiction of 2020）",
     "author": "弗雷德里克·巴克曼",
     "cover": "https://res.weread.qq.com/wrepub/CB_4XQCKWCLU0sK6no6oo7y8DOb_parsecover",
-    "progress": 5,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "CB_AsTFbdFaK4av6nB6ooC8j0w9",
+    "progress": 39,
     "title": "Fluent React Build Fast, Performant, and Intuitive Web Applications (Tejas Kumar) (Z-Library)",
     "author": "Tejas Kumar;",
     "cover": "https://res.weread.qq.com/wrepub/CB_31VFk9FkA6WU6n06ks79b2G1_parsecover",
-    "progress": 39,
     "highlightCount": 5,
     "noteCount": 0
   },
   {
     "id": "3300015843",
+    "progress": 13,
     "title": "大诱拐（同名电影原著）",
     "author": "天藤真",
     "cover": "https://cdn.weread.qq.com/weread/cover/43/3300015843/t6_3300015843.jpg",
-    "progress": 13,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "37072270",
+    "progress": 15,
     "title": "克拉拉与太阳（彩虹版石黑一雄作品）",
     "author": "[英]石黑一雄",
     "cover": "https://cdn.weread.qq.com/weread/cover/88/YueWen_37072270/t6_YueWen_37072270.jpg",
-    "progress": 15,
     "highlightCount": 2,
     "noteCount": 0
   },
   {
     "id": "43219484",
+    "progress": 17,
     "title": "叔本华的治疗",
     "author": "[美]欧文·D.亚隆",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/484/43219484/t6_43219484.jpg",
-    "progress": 17,
     "highlightCount": 8,
     "noteCount": 0
   },
   {
     "id": "731606",
+    "progress": 4,
     "title": "锋利的jQuery（第2版）",
     "author": "单东林 张晓菲 魏然编著",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/606/731606/t6_731606.jpg",
-    "progress": 4,
     "highlightCount": 2,
     "noteCount": 0
   },
   {
     "id": "41787117",
+    "progress": 20,
     "title": "感受爱：在亲密关系中获得幸福的艺术",
     "author": "珍妮·西格尔",
     "cover": "https://cdn.weread.qq.com/weread/cover/62/YueWen_41787117/t6_YueWen_41787117.jpg",
-    "progress": 20,
     "highlightCount": 2,
     "noteCount": 0
   },
   {
     "id": "3300004399",
+    "progress": 0,
     "title": "从零开始的女性主义",
     "author": "[日]上野千鹤子 [日]田房永子",
     "cover": "https://cdn.weread.qq.com/weread/cover/10/cpplatform_3300004399/t6_cpplatform_33000043991677502000.jpg",
-    "progress": 0,
     "highlightCount": 0,
     "noteCount": 1
   },
   {
     "id": "CB_0rWERqEOo35e6Q66Pw",
+    "progress": 100,
     "title": "克莱因壶",
     "author": "冈岛二人",
     "cover": "https://res.weread.qq.com/wrepub/CB_D6SGZAGWH7L76LB6Ln_parsecover",
-    "progress": 100,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "36697922",
+    "progress": 55,
     "title": "Vue.js 3 Cookbook",
     "author": "Heitor Ramon Ribeiro",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/922/36697922/t6_36697922.jpg",
-    "progress": 55,
     "highlightCount": 2,
     "noteCount": 0
   },
   {
     "id": "CB_0vfERrEOo35e6Q66Pw",
+    "progress": 100,
     "title": "消失的13级台阶（荣获日本推理小说至高荣誉江户川乱步奖！是否值得为一场痛快的复仇，陪葬掉自己的人生？）",
     "author": "高野和明",
     "cover": "https://res.weread.qq.com/wrepub/CB_8nl9Kn9LS2H66Ky6LZ_parsecover",
-    "progress": 100,
     "highlightCount": 8,
     "noteCount": 0
   },
   {
     "id": "CB_A16AU0AUJ6066Kk6Ln",
+    "progress": 48,
     "title": "JavaScript Everywhere",
     "author": "Adam D. Scott",
     "cover": "https://res.weread.qq.com/wrepub/CB_A16AU0AUJ6066Kk6Ln_parsecover",
-    "progress": 48,
     "highlightCount": 64,
     "noteCount": 2
   },
   {
     "id": "31151864",
+    "progress": 34,
     "title": "React实战",
     "author": "马克·蒂伦斯·托马斯",
     "cover": "https://cdn.weread.qq.com/weread/cover/55/YueWen_31151864/t6_YueWen_31151864.jpg",
-    "progress": 34,
     "highlightCount": 3,
     "noteCount": 1
   },
   {
     "id": "CB_DfL8P98QmBuw6OE6Ln",
+    "progress": 17,
     "title": "Understanding ECMAScript 6",
     "author": "Nicholas C. Zakas",
     "cover": "https://res.weread.qq.com/wrepub/CB_DfL8P98QmBuw6OE6Ln_parsecover",
-    "progress": 17,
     "highlightCount": 12,
     "noteCount": 0
   },
   {
     "id": "CB_Fr2AOSAQA9i96Nh6Ln",
+    "progress": 100,
     "title": "恐妻家",
     "author": "伊坂幸太郎",
     "cover": "https://res.weread.qq.com/wrepub/CB_69mEsgEs6GSQ6Ko6Ln_parsecover",
-    "progress": 100,
     "highlightCount": 8,
     "noteCount": 0
   },
   {
     "id": "CB_E3t0LJ0ONFYr6N36Ln",
+    "progress": 10,
     "title": "王考",
     "author": "童伟格",
     "cover": "https://res.weread.qq.com/wrepub/CB_E3t0LJ0ONFYr6N36Ln_parsecover",
-    "progress": 10,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "CB_5N422c23w7nt6L36Ln",
+    "progress": 3,
     "title": "ddia-cn",
     "author": "Feng Ruohang",
     "cover": "https://res.weread.qq.com/wrepub/CB_25s0hA0gL7Ot6Kp6Ln_parsecover",
-    "progress": 3,
     "highlightCount": 4,
     "noteCount": 0
   },
   {
     "id": "CB_A5FAU1AUJ6066Kk6Ln",
+    "progress": 82,
     "title": "甲骨文",
     "author": "[美]何伟",
     "cover": "https://res.weread.qq.com/wrepub/CB_A5FAU1AUJ6066Kk6Ln_parsecover",
-    "progress": 82,
     "highlightCount": 4,
     "noteCount": 0
   },
   {
     "id": "23071736",
+    "progress": 7,
     "title": "完全写作指南：从提笔就怕到什么都能写",
     "author": "劳拉·布朗",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/736/23071736/t6_23071736.jpg",
-    "progress": 7,
     "highlightCount": 7,
     "noteCount": 0
   },
   {
     "id": "820116",
+    "progress": 21,
     "title": "测试架构师修炼之道：从测试工程师到测试架构师",
     "author": "刘琛梅",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/116/820116/t6_820116.jpg",
-    "progress": 21,
     "highlightCount": 35,
     "noteCount": 1
   },
   {
     "id": "27185001",
+    "progress": 29,
     "title": "Flutter技术入门与实战（第2版）",
     "author": "亢少军",
     "cover": "https://cdn.weread.qq.com/weread/cover/76/YueWen_27185001/t6_YueWen_27185001.jpg",
-    "progress": 29,
     "highlightCount": 10,
     "noteCount": 0
   },
   {
     "id": "23665730",
+    "progress": 7,
     "title": "武志红心理学套装（共四册）",
     "author": "武志红",
     "cover": "https://cdn.weread.qq.com/weread/cover/60/yuewen_23665730/t6_yuewen_236657301678700081.jpg",
-    "progress": 7,
     "highlightCount": 14,
     "noteCount": 1
   },
   {
     "id": "730731",
+    "progress": 12,
     "title": "Spring 3.0就这么简单",
     "author": "陈雄华 林开雄",
     "cover": "https://cdn.weread.qq.com/weread/cover/1/YueWen_730731/t6_YueWen_730731.jpg",
-    "progress": 12,
     "highlightCount": 34,
     "noteCount": 0
   },
   {
     "id": "754063",
+    "progress": 22,
     "title": "欺诈师与空气男",
     "author": "江户川乱步",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/63/754063/t6_754063.jpg",
-    "progress": 22,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "139418",
+    "progress": 20,
     "title": "西游记",
     "author": "[明]吴承恩",
     "cover": "https://cdn.weread.qq.com/weread/cover/12/YueWen_139418/t6_YueWen_139418.jpg",
-    "progress": 20,
     "highlightCount": 3,
     "noteCount": 0
   },
   {
     "id": "561806",
+    "progress": 7,
     "title": "青铜时代",
     "author": "王小波",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/806/561806/t6_561806.jpg",
-    "progress": 7,
     "highlightCount": 3,
     "noteCount": 0
   },
   {
     "id": "814852",
+    "progress": 0,
     "title": "傲慢与偏见",
     "author": "简·奥斯汀",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/852/814852/t6_814852.jpg",
-    "progress": 0,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "754100",
+    "progress": 12,
     "title": "夜之国的库帕",
     "author": "伊坂幸太郎",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/100/754100/t6_754100.jpg",
-    "progress": 12,
     "highlightCount": 1,
     "noteCount": 0
   },
   {
     "id": "700466",
+    "progress": 6,
     "title": "曾国藩家书：插图版",
     "author": "[清]曾国藩",
     "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/466/700466/t6_700466.jpg",
-    "progress": 6,
     "highlightCount": 1,
     "noteCount": 0
   }
