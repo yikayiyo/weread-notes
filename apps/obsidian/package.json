@@ -1,0 +1,26 @@
+{
+  "name": "@weread/obsidian",
+  "version": "0.4.2",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node scripts/check.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "@weread/core": "0.4.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "esbuild": "0.25.12",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

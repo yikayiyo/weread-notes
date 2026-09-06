@@ -11,8 +11,14 @@ const eslintConfig = defineConfig([
     ".next/**",
     "out/**",
     "build/**",
+    "apps/*/dist/**",
+    "packages/*/dist/**",
     "next-env.d.ts",
   ]),
+  {
+    files: ["apps/obsidian/**/*.{js,mjs,ts,tsx}"],
+    rules: { "@next/next/no-img-element": "off" },
+  },
 ]);
 
 export default eslintConfig;

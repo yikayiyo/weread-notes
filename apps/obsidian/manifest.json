@@ -1,0 +1,9 @@
+{
+  "id": "bugaoshan-reading",
+  "name": "微信读书 · 我的阅读",
+  "version": "0.4.2",
+  "minAppVersion": "1.11.4",
+  "description": "用自己的微信读书 API key 同步电子书、划线和笔记，在 Obsidian 中查看个人阅读档案。",
+  "author": "legao",
+  "isDesktopOnly": true
+}
