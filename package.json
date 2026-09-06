@@ -2,15 +2,25 @@
   "name": "reading-archive",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "apps/obsidian",
+    "packages/weread-core"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "sync": "node scripts/sync.mjs",
-    "sync:test": "node scripts/sync.mjs --limit 5"
+    "sync:test": "node scripts/sync.mjs --limit 5",
+    "build:plugin": "npm run build --workspace @weread/obsidian",
+    "package:plugin": "npm run package --workspace @weread/obsidian",
+    "check:core": "npm test --workspace @weread/core",
+    "check:plugin": "npm test --workspace @weread/obsidian",
+    "check:web": "node scripts/check-web.mjs"
   },
   "dependencies": {
+    "@weread/core": "0.4.1",
     "@fontsource/noto-serif-sc": "^5.2.8",
     "@resvg/resvg-js": "^2.6.2",
     "lenis": "^1.3.23",

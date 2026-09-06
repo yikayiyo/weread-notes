@@ -2,6 +2,40 @@
 
 微信读书阅读记录的私人静态站点。
 
+仓库使用 npm workspaces，同时维护 Web App、Obsidian 插件和共享数据核心。Web 包继续位于根目录，保持已有部署和预览入口。
+
+## 目录与工作区
+
+```text
+weread-notes/
+├── package.json               # reading-archive：Web 包与 workspace 入口
+├── app/ components/ hooks/    # 原 Web 页面、交互和样式
+├── lib/ public/ data/         # 原 Web 工具、资源和阅读数据
+├── scripts/                   # 原 Web 同步命令与兼容构建入口
+├── apps/obsidian/             # @weread/obsidian：独立插件包
+└── packages/weread-core/       # @weread/core：共享同步和数据类型
+```
+
+`@weread/core` 是唯一的数据获取实现，负责分页、限流重试、增量缓存判断和数据规范化。Web 与插件各自处理密钥来源、请求传输和结果保存。它直接作为本地 workspace 依赖使用，无需发布到 npm。
+
+插件有自己的组件、样式和构建命令，使用 React 与 esbuild，不依赖 Next.js 或 Web 页面。使用说明见 [插件 README](apps/obsidian/README.md)。
+
+在根目录执行 `npm ci` 安装整个工作区。常用命令：
+
+| 命令 | 用途 |
+|------|------|
+| `npm run dev` | 原 Web 开发预览，可继续追加 `-- --port 3001` |
+| `npm run build` | 只构建 Web，输出仍为根 `.next/` |
+| `npm run start` | 原 Web 生产预览 |
+| `npm run sync` | 原 Web 数据同步，仍读取根环境变量并写入 `data/` |
+| `npm run build:plugin` | 独立构建 Obsidian 插件 |
+| `npm run package:plugin` | 在 `apps/obsidian/dist/` 生成可下载的插件 ZIP |
+| `npm run check:core` | 离线验证共享核心与原 Web 同步入口 |
+| `npm run check:plugin` | 验证插件构建、密钥、缓存及取消逻辑 |
+| `npm run check:web -- http://127.0.0.1:3000` | 检查已启动的 Web 页面与 SVG/PNG 分享功能 |
+
+插件的安装包只包含运行产物和说明，用户不需要下载 Web App 或安装开发依赖。原 `node scripts/build-obsidian-plugin.mjs`、`node scripts/check-obsidian-plugin.mjs` 和 `node scripts/check-weread-sync.mjs` 仍作为兼容入口保留。
+
 ## 站点页面
 
 | 路径 | 说明 |
@@ -25,7 +59,7 @@
 WeRead → npm run sync → data/*.json → Git Push → Vercel
 ```
 
-纯静态站点：无后端、无数据库。页面在**构建时**从仓库里的 `data/*.json` 读取数据并渲染，部署后只提供静态文件。
+阅读页面在**构建时**从仓库里的 `data/*.json` 读取数据并渲染，无需数据库。`/api/share-card` 使用 Node.js 在请求时生成 SVG/PNG 分享图片，因此部署时保留 Next.js 的服务端能力。
 
 - 本地运行 `npm run sync` 时，脚本通过 **WeRead Agent API** 拉取数据并写入 `data/`
 - 线上站点**不持有** API 密钥，运行时**不连接**微信读书，只读取已同步进仓库的 JSON
@@ -95,3 +129,7 @@ NEXT_PUBLIC_REPO_README_URL=https://github.com/you/reading-archive/blob/main/REA
 ## 部署
 
 将 `data/` 与代码一并推送到 Git 后，Vercel 自动构建。`data/` 随仓库部署，无需额外配置。
+
+工作区整理保持原有部署契约：Root Directory 仍为仓库根目录，框架仍为 Next.js，安装命令可用 `npm ci`，构建命令仍为 `npm run build`，输出仍为默认 `.next/`。`app/`、`public/`、`data/`、环境变量位置和页面 URL 均保留。Web 构建不会执行插件构建，也不会自动同步微信读书。
+
+其他基于仓库源码的预览或部署平台继续使用上述根目录和原命令；安装源码时需包含 `apps/`、`packages/` 和根 `package-lock.json`，让 npm 能正确解析本地工作区依赖。已有的线上部署不会因本地目录整理自动改变。

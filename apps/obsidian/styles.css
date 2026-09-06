@@ -1,0 +1,9 @@
+.workspace-leaf-content .view-content.bugaoshan-reading-view {
+  padding: 0;
+  overflow: auto;
+}
+
+.bugaoshan-reading-host {
+  min-height: 100%;
+  container-type: inline-size;
+}
