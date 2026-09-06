@@ -1,5 +1,72 @@
 [
   {
+    "id": "40504312",
+    "title": "略萨作品：酒吧长谈（精装珍藏版）",
+    "author": "马里奥·巴尔加斯·略萨",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/312/40504312/t6_40504312.jpg",
+    "category": "精品小说-社会小说",
+    "progress": 5,
+    "lastReadAt": "2026-09-01T18:02:01.000Z",
+    "highlightCount": 3,
+    "noteCount": 0,
+    "startedAt": "2026-08-24T04:48:07.000Z"
+  },
+  {
+    "id": "CB_5ty0F00G1DM475w75O4hrA1B",
+    "title": "pi-agent-sourcebook",
+    "author": "Codex",
+    "cover": "https://res.weread.qq.com/wrepub/CB_5ty0F00G1DM475w75O4hrA1B_parsecover",
+    "progress": 0,
+    "lastReadAt": "2026-08-26T14:12:12.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300177660",
+    "title": "专注的真相",
+    "author": "李笑来",
+    "cover": "https://cdn.weread.qq.com/weread/cover/4/cpplatform_v6rotsdw578bplfggz32pk/t6_cpplatform_v6rotsdw578bplfggz32pk1763434329.jpg",
+    "category": "个人成长-励志成长",
+    "progress": 98,
+    "lastReadAt": "2026-08-26T09:20:08.000Z",
+    "highlightCount": 18,
+    "noteCount": 1,
+    "startedAt": "2026-08-18T14:40:41.000Z"
+  },
+  {
+    "id": "3300204927",
+    "title": "活出生命的意义",
+    "author": "[奥]阿尔弗雷德·阿德勒",
+    "cover": "https://cdn.weread.qq.com/weread/cover/35/cpplatform_gw8jpyeab7j8xyhmh3yqsh/t6_cpplatform_gw8jpyeab7j8xyhmh3yqsh1778557294.jpg",
+    "category": "个人成长-人生哲学",
+    "progress": 0,
+    "lastReadAt": "2026-08-26T02:42:59.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "3300223020",
+    "title": "AI提效：人人都要用的WorkBuddy（微信读书特别版）",
+    "author": "秋叶",
+    "cover": "https://cdn.weread.qq.com/weread/cover/43/cpplatform_mqyqy6a4yq2csuesyknnbk/t6_cpplatform_mqyqy6a4yq2csuesyknnbk1785910342.jpg",
+    "category": "计算机-人工智能",
+    "progress": 0,
+    "lastReadAt": "2026-08-23T15:47:00.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "25793956",
+    "title": "零基础学好英语语法",
+    "author": "邱律苍",
+    "cover": "https://cdn.weread.qq.com/weread/cover/72/YueWen_25793956/t6_YueWen_25793956.jpg",
+    "category": "教育学习-外语",
+    "progress": 0,
+    "lastReadAt": "2026-08-15T15:46:33.000Z",
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
     "id": "3300117257",
     "title": "不上班咖啡馆",
     "author": "古典",
@@ -3669,7 +3736,7 @@
   },
   {
     "id": "41147996",
-    "title": "福格行为模型",
+    "title": "福格行为模型：你会越来越有能量",
     "author": "B.J.福格",
     "cover": "https://cdn.weread.qq.com/weread/cover/39/YueWen_41147996/t6_YueWen_41147996.jpg",
     "category": "心理-心理学研究",
@@ -3833,7 +3900,7 @@
   },
   {
     "id": "3300020163",
-    "title": "我的阿勒泰（马伊琍、周依然、于适主演同名电视剧原著）",
+    "title": "我的阿勒泰（中国版权金奖、“我的阿勒泰”同名电视剧）",
     "author": "李娟",
     "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_fy7wyg2acrhxq1vu4yvs9y/t6_cpplatform_fy7wyg2acrhxq1vu4yvs9y1714307419.jpg",
     "category": "精品小说-影视原著",
@@ -6677,22 +6744,22 @@
     "noteCount": 2
   },
   {
-    "id": "921751",
-    "title": "昨日的世界：一个欧洲人的回忆",
-    "author": "茨威格",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/751/921751/t6_921751.jpg",
-    "category": "精品小说-纪实小说",
+    "id": "814286",
+    "title": "爱默生随笔：用心聆听世界",
+    "author": "拉尔夫·华尔多·爱默生",
+    "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_814286/t6_YueWen_814286.jpg",
+    "category": "文学-散文杂著",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "814286",
-    "title": "爱默生随笔：用心聆听世界",
-    "author": "拉尔夫·华尔多·爱默生",
-    "cover": "https://cdn.weread.qq.com/weread/cover/65/YueWen_814286/t6_YueWen_814286.jpg",
-    "category": "文学-散文杂著",
+    "id": "921751",
+    "title": "昨日的世界：一个欧洲人的回忆",
+    "author": "茨威格",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/751/921751/t6_921751.jpg",
+    "category": "精品小说-纪实小说",
     "progress": 0,
     "lastReadAt": "2019-07-04T09:44:37.000Z",
     "highlightCount": 0,
@@ -7539,20 +7606,20 @@
     "noteCount": 0
   },
   {
-    "id": "25462644",
-    "title": "Rust编程之道",
-    "author": "张汉东",
-    "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_25462644/t6_YueWen_25462644.jpg",
-    "category": "计算机-编程设计",
+    "id": "29348658",
+    "title": "史记的读法：司马迁的历史世界",
+    "author": "杨照",
+    "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_29348658/t6_YueWen_29348658.jpg",
+    "category": "历史-历史读物",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
   },
   {
-    "id": "26211871",
-    "title": "SQL基础教程（第2版）",
-    "author": "[日]MICK",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg",
+    "id": "30179235",
+    "title": "Go语言高级编程",
+    "author": "柴树杉 曹春晖",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/235/30179235/t6_30179235.jpg",
     "category": "计算机-编程设计",
     "progress": 0,
     "highlightCount": 0,
@@ -7579,6 +7646,36 @@
     "noteCount": 0
   },
   {
+    "id": "25462644",
+    "title": "Rust编程之道",
+    "author": "张汉东",
+    "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_25462644/t6_YueWen_25462644.jpg",
+    "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "26211871",
+    "title": "SQL基础教程（第2版）",
+    "author": "[日]MICK",
+    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/871/26211871/t6_26211871.jpg",
+    "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "914691",
+    "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
+    "author": "老舍",
+    "cover": "https://cdn.weread.qq.com/weread/cover/22/YueWen_914691/t6_YueWen_914691.jpg",
+    "category": "精品小说-社会小说",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
     "id": "25462650",
     "title": "程序员代码面试指南：IT名企算法与数据结构题目最优解（第2版）",
     "author": "左程云",
@@ -7589,21 +7686,10 @@
     "noteCount": 0
   },
   {
-    "id": "687994",
-    "title": "编程之美",
-    "author": "《编程之美》小组",
-    "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_687994/t6_YueWen_687994.jpg",
-    "category": "计算机-编程设计",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "26687224",
-    "title": "UI设计与认知心理学（全彩）",
-    "author": "郑昊",
-    "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_26687224/t6_YueWen_26687224.jpg",
-    "category": "心理-心理学研究",
+    "id": "CB_1We7eW7d2A6t6Nf6Ln",
+    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
+    "author": "亚当·罗宾逊",
+    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7628,49 +7714,11 @@
     "noteCount": 0
   },
   {
-    "id": "CB_1We7eW7d2A6t6Nf6Ln",
-    "title": "学习和认知升级经典书（包含《学习之道》《精力管理》《如何学习》等，全套6册）",
-    "author": "亚当·罗宾逊",
-    "cover": "https://res.weread.qq.com/wrepub/CB_BLR3gb3fXCOW6Km6Ln_parsecover",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "914691",
-    "title": "四世同堂（果麦经典）（足本全集珍藏版，大结局重见天日）",
-    "author": "老舍",
-    "cover": "https://cdn.weread.qq.com/weread/cover/22/YueWen_914691/t6_YueWen_914691.jpg",
-    "category": "精品小说-社会小说",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "CB_9UC06007nBqn6OD6Ln",
-    "title": "Information architecture for the World Wide Web",
-    "author": "Louis Rosenfeld",
-    "cover": "https://res.weread.qq.com/wrepub/CB_9UC06007nBqn6OD6Ln_parsecover",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "30179235",
-    "title": "Go语言高级编程",
-    "author": "柴树杉 曹春晖",
-    "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/235/30179235/t6_30179235.jpg",
+    "id": "29972004",
+    "title": "Python数据结构与算法分析（第2版）",
+    "author": "布拉德利·米勒 戴维·拉努姆",
+    "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_29972004/t6_YueWen_29972004.jpg",
     "category": "计算机-编程设计",
-    "progress": 0,
-    "highlightCount": 0,
-    "noteCount": 0
-  },
-  {
-    "id": "29348658",
-    "title": "史记的读法：司马迁的历史世界",
-    "author": "杨照",
-    "cover": "https://cdn.weread.qq.com/weread/cover/93/YueWen_29348658/t6_YueWen_29348658.jpg",
-    "category": "历史-历史读物",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
@@ -7686,11 +7734,30 @@
     "noteCount": 0
   },
   {
-    "id": "29972004",
-    "title": "Python数据结构与算法分析（第2版）",
-    "author": "布拉德利·米勒 戴维·拉努姆",
-    "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_29972004/t6_YueWen_29972004.jpg",
+    "id": "CB_9UC06007nBqn6OD6Ln",
+    "title": "Information architecture for the World Wide Web",
+    "author": "Louis Rosenfeld",
+    "cover": "https://res.weread.qq.com/wrepub/CB_9UC06007nBqn6OD6Ln_parsecover",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "687994",
+    "title": "编程之美",
+    "author": "《编程之美》小组",
+    "cover": "https://cdn.weread.qq.com/weread/cover/19/YueWen_687994/t6_YueWen_687994.jpg",
     "category": "计算机-编程设计",
+    "progress": 0,
+    "highlightCount": 0,
+    "noteCount": 0
+  },
+  {
+    "id": "26687224",
+    "title": "UI设计与认知心理学（全彩）",
+    "author": "郑昊",
+    "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_26687224/t6_YueWen_26687224.jpg",
+    "category": "心理-心理学研究",
     "progress": 0,
     "highlightCount": 0,
     "noteCount": 0
