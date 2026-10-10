@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-19T06:14:21.743Z",
+  "lastSyncedAt": "2026-10-10T12:24:43.382Z",
   "source": "weread",
   "fingerprints": {
     "139418": {
@@ -1445,6 +1445,19 @@
         "shelfReadUpdateTime": 1591877090
       }
     },
+    "24444501": {
+      "content": {
+        "noteCount": 1,
+        "reviewCount": 0,
+        "bookmarkCount": 0,
+        "sort": 1791371146
+      },
+      "progress": {
+        "readingProgress": 22,
+        "markedStatus": 2,
+        "shelfReadUpdateTime": 1791562702
+      }
+    },
     "24980740": {
       "content": {
         "noteCount": 18,
@@ -2149,15 +2162,15 @@
     },
     "40504312": {
       "content": {
-        "noteCount": 3,
+        "noteCount": 4,
         "reviewCount": 0,
         "bookmarkCount": 0,
-        "sort": 1788104090
+        "sort": 1791178733
       },
       "progress": {
         "readingProgress": 14,
         "markedStatus": 2,
-        "shelfReadUpdateTime": 1789434880
+        "shelfReadUpdateTime": 1791225387
       }
     },
     "40726710": {
@@ -2305,15 +2318,15 @@
     },
     "3300024818": {
       "content": {
-        "noteCount": 144,
-        "reviewCount": 17,
-        "bookmarkCount": 5,
-        "sort": 1766940216
+        "noteCount": 145,
+        "reviewCount": 19,
+        "bookmarkCount": 6,
+        "sort": 1789868854
       },
       "progress": {
         "readingProgress": 98,
         "markedStatus": 2,
-        "shelfReadUpdateTime": 1778996779
+        "shelfReadUpdateTime": 1791030495
       }
     },
     "3300024943": {
@@ -3216,17 +3229,17 @@
   },
   "syncFailures": [],
   "stats": {
-    "shelfBooks": 712,
-    "shelfEbooks": 705,
+    "shelfBooks": 714,
+    "shelfEbooks": 707,
     "shelfAlbums": 6,
     "shelfArticleCollections": 1,
-    "notebookBooks": 247,
-    "totalHighlights": 4602,
-    "totalNotes": 284,
+    "notebookBooks": 248,
+    "totalHighlights": 4605,
+    "totalNotes": 286,
     "lastRun": {
-      "fetched": 0,
-      "progressOnly": 39,
-      "skipped": 208,
+      "fetched": 3,
+      "progressOnly": 0,
+      "skipped": 245,
       "failed": 0
     }
   }
