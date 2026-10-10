@@ -39,7 +39,7 @@ function gateway(override = () => undefined) {
     assert.equal(options.throw, false);
     assert.equal(options.headers.Authorization, `Bearer ${apiKey}`);
     const p = JSON.parse(options.body);
-    assert.equal(p.skill_version, "1.0.4");
+    assert.equal(p.skill_version, "1.0.5");
     assert.equal(p.params, undefined, "Business parameters must be flat");
     assert.equal(p.vid, undefined, "Never fetch another user's account");
     calls.push(p);
